@@ -1,0 +1,223 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+
+.caption p {
+  padding-right: 30px;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+.scroll-section a {
+  cursor: pointer;
+}
+
+.erc-about-content {
+  padding-top: 50px;
+}
+
+.erc-about-picture img {
+  padding-bottom: 30px;
+}
+
+.types-of-token-detail {
+  padding-top: 70px;
+}
+
+.process-image {
+  padding-top: 80px;
+}
+.process-image p {
+  text-align: center;
+}
+#erc-link {
+  margin-top: -50px;
+}
+.erc-processing {
+  padding-top: 0px;
+}
+.metaverse_heading p {
+  padding-top: 20px;
+  text-align: center;
+}
+.types-of-token {
+  margin-bottom: 50px;
+}
+.virtual_process {
+  padding: 60px 30px 0px 30px;
+}
+
+.bold-subtitle {
+  font-size: 25px;
+}
+
+@media (max-width: 1199px) {
+  .types-of-erc::before {
+    display: none;
+  }
+
+  .types-erc-detail {
+    padding: 30px 15px 15px 15px;
+  }
+  .process-image {
+    padding-top: 60px;
+  }
+  .erc-about-content {
+    padding-top: 50px;
+  }
+  .erc-about-picture img {
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .types-erc-detail {
+    height: auto;
+  }
+  .types-of-token-detail {
+    padding-top: 75px;
+    justify-content: center;
+  }
+  .process-image {
+    padding-top: 35px;
+  }
+  .erc-processing {
+    padding-bottom: 0px;
+    padding-top: 15px;
+  }
+
+  .main-sub-heading,
+  .common-sub-heading h4 {
+    text-align: center;
+  }
+  #erc-link {
+    margin-top: unset;
+  }
+  .common-sub-heading h4::before {
+    display: none;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+  .develo-erc {
+    padding: 5px 0px 0px 0px;
+  }
+  .erc-about-content {
+    padding-top: 35px;
+  }
+  .our-process-erc {
+    padding-top: 5px;
+  }
+  .erc-about-picture img {
+    padding-bottom: 15px;
+  }
+  .erc-about-picture {
+    padding-bottom: 30px;
+  }
+  .virtual_process {
+    padding: 30px 30px 0px 30px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 25px;
+  }
+  .bold-subtitle {
+    font-size: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .erc-about-content {
+    padding-top: unset;
+  }
+  .erc-about-picture img {
+    padding-bottom: 15px;
+  }
+  .erc-about-picture {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .erc-about-content {
+    padding-top: 25px;
+  }
+  .erc-about-content {
+    padding-bottom: unset;
+  }
+  .types-of-token-detail {
+    padding-top: 60px;
+  }
+  .bold-subtitle {
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 576px) {
+  .develop-erc {
+    padding: 60px 0px 60px 0px;
+  }
+  .main-sub-heading {
+    padding-left: unset;
+  }
+
+  .types-erc-detail {
+    text-align: center !important;
+  }
+  .process-image {
+    padding-bottom: unset;
+  }
+  .process-head {
+    font-size: 18px;
+  }
+
+  .metaverse_heading {
+    margin: 0px;
+  }
+  .erc-about-picture {
+    padding-top: 30px;
+    padding-bottom: 0;
+  }
+  .develo-erc {
+    padding: 60px 0px 0px 0px;
+  }
+
+  .process-image {
+    padding-bottom: unset;
+  }
+  .choosing-section {
+    padding-bottom: 30px;
+  }
+  .types-of-token-detail {
+    padding-top: 50px;
+  }
+  .erc-about-content {
+    padding-top: 0px;
+  }
+  .bold-subtitle {
+    font-size: 15px;
+  }
+  .erc-about-picture img {
+    width: 100px;
+    height: auto;
+  }
+}
+@media (max-width: 425px) {
+  .process-image {
+    padding-top: 25px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 0px;
+  }
+  .virtual_process {
+    padding: 30px 10px 0px 10px;
+  }
+  .bold-subtitle {
+    font-size: 14px;
+  }
+}

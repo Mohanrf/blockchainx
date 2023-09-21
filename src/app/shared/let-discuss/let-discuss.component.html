@@ -1,0 +1,91 @@
+<!-- Discuss Section Starts -->
+<div class="main-discuss-section">
+  <div class="green-vector"></div>
+  <div class="orange-vector"></div>
+
+  <div class="row">
+    <div class="col-lg-12 let-discuss">
+      <div class="discus-section">
+        <div class="caption">
+          <h2 *ngIf="!path">
+            Let Us <small>Together Build</small>
+            <span> The Digitized <strong> Delegations</strong></span>
+          </h2>
+          <h2 *ngIf="path == 'metaverse-development-company'">
+            Let's <small>Gather Along</small>
+            <span> To Curate Creative <strong> Epitome</strong></span>
+          </h2>
+          <h2 *ngIf="path == 'erc20-token-development'">
+            Let Us <small>Together Build</small>
+            <span> The Digitized <strong> Delegations</strong></span>
+          </h2>
+          <h2 *ngIf="path == 'uniswap-clone-script'">
+            Let Us <small>Together Build</small>
+            <span> The Digitized <strong> Delegations</strong></span>
+          </h2>
+          <h2 *ngIf="path == 'about-us'">
+            Let Us <small>Together Build</small>
+            <span> The Digitized <strong> Delegations</strong></span>
+          </h2>
+        </div>
+      </div>
+      <div class="discus-detail">
+        <h3 *ngIf="!path" class="common-sub-heading-alt" id="discuss-mission">
+          Talk To Our Experts Now - Get Your <span> Mission Onboard! </span>
+        </h3>
+        <h3
+          *ngIf="path == 'metaverse-development-company'"
+          class="common-sub-heading-alt"
+          id="discuss-mission"
+        >
+          Connect With Our Experts <span>Enlighten Your Ideas With Us</span>
+        </h3>
+        <h3
+          *ngIf="path == 'erc20-token-development'"
+          class="common-sub-heading-alt"
+          id="discuss-mission"
+        >
+          Connect With Our Experts <span>Enlighten Your Ideas With Us</span>
+        </h3>
+        <h3
+          *ngIf="path == 'uniswap-clone-script'"
+          class="common-sub-heading-alt"
+          id="discuss-mission"
+        >
+          Connect With Our Experts <span>Enlighten Your Ideas With Us</span>
+        </h3>
+        <h3
+          *ngIf="path == 'about-us'"
+          class="common-sub-heading-alt"
+          id="discuss-mission"
+        >
+          Connect With Our Experts <span>Enlighten Your Ideas With Us</span>
+        </h3>
+
+        <div class="discuss-link">
+          <a [routerLink]="['/contact']">
+            <span>Contact Us</span>
+            <img
+              src="assets-new/images/right-arrow.png"
+              alt="link-arrow"
+              class="img-fluid"
+              with="50"
+              height="15"
+            />
+          </a>
+        </div>
+        <div class="discus-vector">
+          <img
+            src="assets-new/images/Home/services/discus.png"
+            class="img-fluid"
+            width="475"
+            height="350"
+            alt="Discussion-vetor"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Discuss Section Ends -->

@@ -1,0 +1,138 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+
+.erc-about-picture img {
+  padding-bottom: 30px;
+}
+
+#erc-link {
+  margin-top: -50px;
+}
+
+.trc-benefits {
+  padding-top: 80px;
+}
+
+.acc-head {
+  padding-top: unset;
+  padding-bottom: unset;
+}
+.types-of-token-detail {
+  padding-bottom: 50px;
+}
+.metaverse_heading h3 {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+  .types-of-erc::before {
+    display: none;
+  }
+  .types-of-erc > .container,
+  .common-line > .container {
+    border: unset;
+  }
+
+  .our-process-erc {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+
+  #erc-link {
+    margin-top: unset;
+  }
+  .common-sub-heading h4::before {
+    display: none;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+  .develop-erc img {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 30px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .types-of-erc {
+    padding-bottom: unset;
+  }
+  #trc-about-alt p {
+    padding-bottom: 30px;
+  }
+  .acc-head {
+    padding-top: 0px;
+  }
+  .main-sub-heading span {
+    display: inline-flex;
+  }
+  .casestudy_head, .casestudy_head h3 {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .erc-about-content {
+    padding-top: unset;
+  }
+  .erc-about-picture img {
+    padding-bottom: 15px;
+  }
+  .erc-about-picture {
+    padding-top: 30px;
+  }
+  .erc-20-head,
+  .erc-20-head-alt {
+    font-size: 20px;
+  }
+  .acc-image {
+    padding: 30px 0px;
+  }
+  .banner-right-section img {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .scroll-section {
+    padding-bottom: 45px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-sub-heading {
+    padding-left: unset;
+  }
+
+  #trc-about-alt p:last-child {
+    padding-bottom: unset;
+  }
+  .pt-4 {
+    padding-top: unset !important;
+  }
+  .types-erc-detail {
+    text-align: center !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 3rem !important;
+  }
+  .erc-about-picture {
+    padding-top: 20px;
+  }
+  .acc-image {
+    padding: 10px 0px;
+  }
+}

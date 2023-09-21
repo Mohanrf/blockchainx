@@ -1,0 +1,701 @@
+<!-- Metaverse Section -->
+<section class="banners-section">
+  <!-- <div class="banner-eclipse">
+    <img
+      src="assets-new/images/Home/Eclipse-circle-2.png"
+      width="100%"
+      height="100%"
+      alt="eclipse"
+      class="img-fluid"
+      loading="eager"
+    />
+  </div>
+  <div class="banner-eclipse-alt">
+    <img
+      src="assets-new/images/Home/Ellipse-circle-1.png"
+      width="100%"
+      height="100%"
+      alt="eclipse"
+      class="img-fluid"
+      loading="eager"
+    />
+  </div> -->
+  <div class="banner-eclipse">
+    <picture>
+      <source
+        type="image/webp"
+        srcset="assets-new/images/Home/Eclipse-circle-2.webp"
+      />
+
+      <source
+        type="image/png"
+        srcset="assets-new/images/Home/Eclipse-circle-2.png"
+      />
+
+      <img
+        src="assets-new/images/Home/Eclipse-circle-2.png"
+        width="100%"
+        height="100%"
+        alt="Blockchainx-Eclipse-Vector"
+        loading="eager"
+      />
+    </picture>
+  </div>
+  <div class="banner-eclipse-alt">
+    <picture>
+      <source
+        type="image/webp"
+        srcset="assets-new/images/Home/Eclipse-circle-1.webp"
+      />
+
+      <source
+        type="image/png"
+        srcset="assets-new/images/Home/Eclipse-circle-1.png"
+      />
+
+      <img
+        src="assets-new/images/Home/Eclipse-circle-1.png"
+        width="100%"
+        height="100%"
+        alt="Blockchainx-Eclipse-Vector"
+        loading="eager"
+      />
+    </picture>
+  </div>
+  <div class="green-vector"></div>
+  <div class="banner_wrapper">
+    <div class="container" id="banner-page-vector-main">
+      <div class="green-vector"></div>
+      <div class="row align-items-center">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+          <div class="banner_contentWrapper">
+            <div class="caption">
+              <h1>
+                <span> <strong> Metaverse </strong></span>
+                <span>Development Service</span>
+              </h1>
+              <h4 class="common-sub-heading-alt">
+                Crafting Creative Immersive Ecosystem
+              </h4>
+
+              <p>
+                Extensive virtual space, our Metaverse Development Services have
+                spread to curate immersive environments with high efficiency
+                through customized solutions.
+              </p>
+              <div class="content-link">
+                <a [routerLink]="['/contact']">
+                  <span>Get in touch</span>
+                  <img
+                    src="assets-new/images/right-arrow.png"
+                    alt="link-arrow"
+                    class="img-fluid"
+                    with="50"
+                    height="15"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+          <div class="banner-right-section">
+            <img
+              src="assets-new/images/metaverse/metaverse-banner-image.png"
+              class="img-fluid"
+              alt="Right-vector"
+              width="350"
+              height="320"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="scroll-section text-center">
+          <a
+            (click)="
+              about.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            "
+          >
+            <img
+              src="assets-new/images/Home/scroll.png"
+              class="img-fluid"
+              width="25"
+              height="50"
+              alt="scroll-icon"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end -->
+<!-- Facts Section -->
+<section class="meta-facts" #about>
+  <div class="metaverse-fact-section">
+    <div class="violet-vector"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="common-sub-heading">
+            <h4>Breaking The Myth<span class="dots">.</span></h4>
+          </div>
+          <h3 class="main-sub-heading">
+            Unfurling Facts & Highlighting Opportunities
+          </h3>
+        </div>
+      </div>
+    </div>
+    <div class="container my-5">
+      <div class="row">
+        <div class="col-lg-12">
+          <owl-carousel-o [options]="customOptions">
+            <ng-template carouselSlide>
+              <div class="nft-fact">
+                <img
+                  src="assets-new/images/metaverse/meta-6.png"
+                  alt="nft market"
+                  class="img-fluid"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                />
+                <div class="nft-text-wrap">
+                  <p>Metaverse Is The Future Of Digital Ecosystem, says Meta</p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="nft-fact">
+                <img
+                  src="assets-new/images/metaverse/meta-4.png"
+                  alt="nft market"
+                  class="img-fluid"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                />
+                <div class="nft-text-wrap">
+                  <p>
+                    Smart contract certifications have higher value in the
+                    market
+                  </p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="nft-fact">
+                <img
+                  src="assets-new/images/metaverse/meta-5.png"
+                  alt="nft market"
+                  class="img-fluid"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                />
+                <div class="nft-text-wrap">
+                  <p>
+                    Top fashion brands have to seek a captivating audience here
+                  </p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="nft-fact">
+                <img
+                  src="assets-new/images/metaverse/meta-3.png"
+                  alt="nft market"
+                  class="img-fluid"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                />
+                <div class="nft-text-wrap">
+                  <p>
+                    Big tech giants collectively indulge in exploring the
+                    systems
+                  </p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="nft-fact">
+                <img
+                  src="assets-new/images/metaverse/meta-2.png"
+                  alt="nft market"
+                  class="img-fluid"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                />
+                <div class="nft-text-wrap">
+                  <p>Metaverse has great potential in transforming ecosystem</p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="nft-fact">
+                <img
+                  src="assets-new/images/metaverse/meta-1.png"
+                  alt="metaverse-development-company"
+                  class="img-fluid"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                />
+                <div class="nft-text-wrap">
+                  <p>Higher investments in the sector yield higher outcomes</p>
+                </div>
+              </div>
+            </ng-template>
+            <ng-template carouselSlide>
+              <div class="nft-fact">
+                <img
+                  src="assets-new/images/metaverse/meta-5.png"
+                  alt="metaverse-development-company"
+                  class="img-fluid"
+                  loading="lazy"
+                  width="120"
+                  height="120"
+                />
+                <div class="nft-text-wrap">
+                  <p>
+                    Digital adaptations are going to be the future lifestyle
+                  </p>
+                </div>
+              </div>
+            </ng-template>
+          </owl-carousel-o>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--factsection-2-->
+<!--nft metaverse-->
+<section class="nft_metaverse">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="metaverse_heading">
+          <h3><span>Metaverse</span> NFT Marketplace Demo</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row metmb-3">
+      <div class="col-lg-5">
+        <div class="metaverse_subheading">
+          <h3>Unleash Unbounded Opportunities For Your Creatives</h3>
+
+          <div class="content-link">
+            <a
+              href="https://seaswap.trade/eYS8odL/discrete-majestic-sphere"
+              target="_blank"
+            >
+              <span>Explore</span>
+              <img
+                src="assets-new/images/right-arrow.png"
+                alt="link-arrow"
+                class="img-fluid"
+                with="50"
+                height="15"
+              />
+            </a>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7" id="play">
+        <div class="video_right_side">
+          <div class="violet-vector"></div>
+          <div class="demo-video-link">
+            <a
+              href="https://seaswap.trade/eYS8odL/discrete-majestic-sphere"
+              target="_blank"
+              >Explore
+            </a>
+          </div>
+          <video
+            width="100%"
+            height="100%"
+            muted
+            poster="assets-new/images/metaverse/nft-video-1.png"
+            class="img-fluid"
+            id="video1"
+          ></video>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-end cmt-5">
+      <div class="col-lg-7 orders-2" id="play">
+        <div class="video_left_side">
+          <div class="green-vector"></div>
+          <div class="demo-video-link">
+            <a
+              href="https://seaswap.trade/ETuKCKL/writhing-gorgeous-park"
+              target="_blank"
+            >
+              Explore
+            </a>
+          </div>
+          <video
+            width="100%"
+            height="100%"
+            muted
+            poster="assets-new/images/metaverse/nft-video2.png"
+            class="img-fluid"
+            id="video2"
+          ></video>
+        </div>
+      </div>
+      <div class="col-lg-5 orders-1">
+        <div class="metaverse_subheading video-left">
+          <h3>Incredible Solutions Beyond Expectations</h3>
+          <div class="content-link">
+            <a
+              href="https://seaswap.trade/ETuKCKL/writhing-gorgeous-park"
+              target="_blank"
+            >
+              <span>Explore</span>
+              <img
+                src="assets-new/images/right-arrow.png"
+                alt="link-arrow"
+                class="img-fluid"
+                with="50"
+                height="15"
+              />
+            </a>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!--nft metaverse end-->
+<section class="nft_market_place">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="nft_market_aligns">
+          <div>
+            <div class="common-sub-heading">
+              <h4>NFT Marketplace <span class="dots">.</span></h4>
+            </div>
+            <h3 class="main-sub-heading">
+              Multifacet Platforms With Vast Scopes
+            </h3>
+          </div>
+          <div class="content-link">
+            <a [routerLink]="['/nft-marketplace-development']">
+              <span>Explore</span>
+              <img
+                src="assets-new/images/right-arrow.png"
+                alt="link-arrow"
+                class="img-fluid"
+                with="50"
+                height="15"
+              />
+            </a>
+            <hr />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="nft_market_place_video" id="play">
+    <div class="demo-video-link">
+      <a
+        href="https://seaswap.trade/zXGGpRG/compassionate-upbeat-walkabout/"
+        target="_blank"
+      >
+        View Demo
+      </a>
+    </div>
+    <video
+      width="100%"
+      height="100%"
+      muted
+      poster="assets-new/images/metaverse/nft_market_video.png"
+      class="img-fluid"
+      id="video3"
+    ></video>
+  </div>
+</section>
+<section class="casestudies">
+  <div class="green-vector"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="casetudies_common">
+          <div class="violet-vector"></div>
+          <div class="commontext_subhead mb-1">
+            <h3>Metaverse<span class="dots">.</span></h3>
+          </div>
+          <h3 class="main-sub-heading">Rendering Endless Opportunities</h3>
+          <div class="casestudies_para">
+            <p>
+              In an open market with no limitations, we shall help you curate
+              creative platforms with our expertise, and knowledge in Metaverse
+              development services. Derive business-class solutions from top
+              market experts in the field, facilitating an end-to-end solution.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-7 scrolling-section" id="meta-case-study">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="casestudy_wrap">
+              <div class="casestudy_head">
+                <h3><a>Metaverse Application Development</a></h3>
+              </div>
+              <div class="casestudy_para">
+                <p>
+                  With the shift to decentralized solutions, we are bringing
+                  on-demand facilitators with transparency and higher efficiency
+                  through our Metaverse application development. This custom
+                  solution takes your business to a new phase with betterment
+                  and progress.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="case_studies_hr" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="casestudy_wrap">
+              <div class="casestudy_head">
+                <h3><a>Metaverse NFT Development</a></h3>
+              </div>
+              <div class="casestudy_para">
+                <p>
+                  With abilities to monetize with digital assets, Metaverse NFT
+                  Development is now a pinch of life added to those
+                  collectibles. Given functionalities and abilities, their use
+                  cases extend and so do their values and demand in the market,
+                  and there raises your reputation too.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="case_studies_hr" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="casestudy_wrap">
+              <div class="casestudy_head">
+                <h3><a>Metaverse Store Development</a></h3>
+              </div>
+              <div class="casestudy_para">
+                <p>
+                  With everything hitting the online to comprehend the physical
+                  difficulties, our Metaverse Store Development, we help you
+                  curate a storefront for your brand injecting metaverse
+                  abilities, putting you in the spotlight for the globe to
+                  notice your uniqueness.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="case_studies_hr" />
+          </div>
+        </div>
+        <!--start-->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="casestudy_wrap">
+              <div class="casestudy_head">
+                <h3><a>Metaverse Social Media Platform </a></h3>
+              </div>
+              <div class="casestudy_para">
+                <p>
+                  The social media platforms today are the connecting point of
+                  the world, and by bringing in metaverse abilities into the
+                  structures we help you in connecting the technology with real
+                  life, more like a link between two parallel worlds, the real
+                  and reel together in one.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="case_studies_hr" />
+          </div>
+        </div>
+        <!--end-->
+        <!--start-->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="casestudy_wrap">
+              <div class="casestudy_head">
+                <h3><a>Metaverse Platform Development</a></h3>
+              </div>
+              <div class="casestudy_para">
+                <p>
+                  Our Metaverse Platform Development insists on curating
+                  creative platforms for our clients in the digitally empowered
+                  era and stands as an enduring example to the world,
+                  symbolizing endless possibilities in different sectors from
+                  art, real estate, and many others.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="case_studies_hr" />
+          </div>
+        </div>
+        <!--end-->
+        <!--start-->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="casestudy_wrap">
+              <div class="casestudy_head">
+                <h3><a>Metaverse Integration Services</a></h3>
+              </div>
+              <div class="casestudy_para">
+                <p>
+                  For your dream, to make your business completely digitized, we
+                  facilitate our Metaverse Integration services, which can
+                  transform your current operations into a highly secured, safe,
+                  and advanced ecosystem with our expertise. Go completely
+                  decentralized with us.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="case_studies_hr" />
+          </div>
+        </div>
+        <!--end-->
+        <!--start-->
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="casestudy_wrap">
+              <div class="casestudy_head">
+                <h3><a>Metaverse Marketing Services</a></h3>
+              </div>
+              <div class="casestudy_para">
+                <p>
+                  To grab global attention and seek the interest of the digital
+                  market, we render customized business-driven Metaverse
+                  Marketing services, that are result-oriented, supportive for
+                  your business, and contributes is reaching the corners in the
+                  digital era.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <hr class="case_studies_hr" />
+          </div>
+        </div>
+        <!--end-->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Why Choose Us -->
+<app-why-choose></app-why-choose>
+<!-- Why Choose Us -->
+<!-- Our Development Process -->
+<section class="our_development_process">
+  <div class="violet-vector"></div>
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-12">
+        <div class="commontext_wrap">
+          <h2>
+            Our Metaverse NFT Marketplace<span> Elements Brought In</span>
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div class="row align-items-center">
+      <div class="col-lg-4 metmb-3">
+        <div class="virtual_process cmb-5">
+          <h2>01</h2>
+          <h4>Custom Avatar Creation</h4>
+          <p>
+            The users can create a virtual version of themselves, a replica that
+            can be creative and customized, however.
+          </p>
+        </div>
+        <div class="virtual_process">
+          <h2>02</h2>
+          <h4>Digital Asset Tokens</h4>
+          <p>
+            The platform supports tokenizing unique assets from art collectibles
+            to real estate for users to act & monetize.
+          </p>
+        </div>
+      </div>
+      <div class="col-lg-4 metmb-3">
+        <div class="our_dev_process" id="development-picture">
+          <img
+            src="assets-new/images/metaverse/metaverse-demo.png"
+            width="275"
+            height="275"
+            class="img-fluid"
+            alt="development"
+            loading="lazy"
+          />
+        </div>
+      </div>
+      <div class="col-lg-4 virual-list">
+        <div class="virtual_process cmb-5">
+          <h2>03</h2>
+          <h4>Wallet Integration</h4>
+          <p>
+            Connecting NFT wallets in platforms support quick, safe, and secured
+            transactions and safe storage.
+          </p>
+        </div>
+        <div class="virtual_process">
+          <h2>04</h2>
+          <h4>Game Asset Utilization</h4>
+          <p>
+            Players can build and sell in-game assets in metaverse marketplaces
+            bringing name, fame, and returns.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Our Development Process -->
+<div class="meta-discuss">
+  <div class="container py-0">
+    <app-let-discuss></app-let-discuss>
+  </div>
+  <app-business-tech-stack></app-business-tech-stack>
+</div>
+<app-expert></app-expert>
+<app-blog></app-blog>
+<app-contactform></app-contactform>

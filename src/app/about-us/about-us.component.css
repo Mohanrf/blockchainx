@@ -1,0 +1,445 @@
+p {
+  font-size: 16px;
+}
+
+#banner-page-vector-main h1 {
+  font-family: Exo 2;
+  font-size: 58px;
+  font-weight: 600;
+  line-height: 70px;
+  padding-top: 150px;
+}
+
+.scroll-section {
+  padding-bottom: 90px;
+}
+
+.banner_contentWrapper {
+  padding-top: unset;
+  padding-right: 30px;
+}
+.banner-right-section img {
+  padding-top: unset;
+}
+
+.about-main-about {
+  padding-top: 120px;
+  background: url("/assets-new/images/about/map.png") rgba(255, 255, 255, 0.06);
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.about-main-about > .orange-vector {
+  right: 0;
+  top: 0;
+}
+
+.about-people {
+  padding-top: 130px;
+}
+.about-products {
+  padding: 140px 0px 140px 0px;
+  position: relative;
+}
+.about-products > .green-vector {
+  top: 0;
+  left: 0;
+}
+.about-product-detail {
+  padding-top: 90px;
+}
+
+.about-product-services {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.about-product-services,
+.service-detail-item {
+  background: rgba(48, 48, 48, 0.1);
+  border: 1px solid #191a1e;
+  border-radius: 8px;
+  padding: 30px 30px 40px 30px;
+  transition: ease-in 0.3s;
+  background-blend-mode: screen;
+}
+.about-product-services:hover,
+.service-detail-item:hover {
+  background: rgba(54, 231, 196, 0.1);
+  border: 1px solid #36e7c4;
+}
+.about-product-services p {
+  padding-top: 15px;
+}
+.about-product-services h3,
+.service-detail-item h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.25;
+  background: linear-gradient(89.98deg, #f5d255 -3.37%, #36e7c4 99.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  font-family: "Exo 2", sans-serif;
+}
+.service-detail-item h4 {
+  font-size: 18px;
+}
+.service-detail-item h3 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 1.6;
+}
+.client-carousel {
+  padding-top: 115px;
+  padding-bottom: 175px;
+}
+.about-platform {
+  padding-top: 160px;
+  position: relative;
+}
+.about-platform > .violet-vector {
+  top: 0;
+  right: 0;
+}
+.logo-item img {
+  width: 70px !important;
+  height: 70px !important;
+}
+.logo-carousel-list {
+  padding-top: 100px;
+}
+
+.main-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#carousel1 {
+  margin-top: 150px;
+}
+#carousel2 {
+  margin-top: 100px;
+}
+#carousel3 {
+  margin-top: 175px;
+}
+#carousel4 {
+  margin-top: 150px;
+}
+#carousel5 {
+  margin-top: 120px;
+}
+#carousel6 {
+  margin-top: 100px;
+}
+
+.cmt-5 {
+  margin-top: -75px;
+}
+
+.about-gallery {
+  padding: 70px 0px 150px 0px;
+  background: rgba(255, 255, 255, 0.06);
+  background-blend-mode: screen;
+  position: relative;
+}
+.main-about-carousel {
+  position: relative;
+}
+.main-about-carousel > .violet-vector {
+  right: 0;
+  bottom: 0;
+}
+.row .about-hyper {
+  position: relative;
+}
+.row .about-hyper > .green-vector {
+  left: 0;
+  top: 0;
+}
+.hyper-platform-list > .orange-vector {
+  right: 0;
+  bottom: 0;
+}
+
+.hyper-platform-list {
+  position: relative;
+}
+
+.logo-carousel-list-alt {
+  padding-bottom: 130px;
+}
+
+.about-hyperledger {
+  padding-top: 160px;
+}
+
+.about_heading h3 {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+}
+
+.about_heading span {
+  display: block;
+}
+.about_heading strong {
+  font-weight: 600;
+  background: linear-gradient(89.98deg, #f5d255 -3.37%, #36e7c4 99.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-hyper {
+  padding-top: 35px;
+}
+.about-hyper .content-link {
+  padding-top: 40px;
+  text-align: right;
+}
+
+.hyper-platform-list {
+  padding-top: 75px;
+}
+
+.discuss {
+  padding-bottom: 240px;
+}
+
+@media (max-width: 1199px) {
+  .content-link a span {
+    font-size: 15px;
+  }
+  #banner-page-vector-main h1 {
+    font-size: 45px;
+  }
+  .client-carousel {
+    padding-bottom: 100px;
+    padding-top: 90px;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-product-detail {
+    padding-top: 50px;
+  }
+  .about-main-about {
+    padding-top: 75px;
+  }
+  .about-products {
+    padding: 75px 0px 75px 0px;
+  }
+  .about-people,
+  .about-platform {
+    padding-top: 60px;
+  }
+
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .client-carousel {
+    padding-top: 50px;
+    padding-bottom: 75px;
+  }
+  .service-detail-item {
+    min-height: 350px;
+  }
+  .logo-carousel-list {
+    padding-top: 50px;
+  }
+  .logo-carousel-list-alt {
+    padding-bottom: 75px;
+  }
+  .about-gallery {
+    padding: 45px 0px 75px 0px;
+  }
+  .video-section-top {
+    padding-top: 30px;
+  }
+  .cmt-5 {
+    margin-top: 25px;
+  }
+  .about-hyperledger {
+    padding-top: 75px;
+  }
+  .about_heading h3 {
+    font-size: 30px;
+    line-height: 1.3;
+  }
+  .about-hyper {
+    padding-top: 15px;
+  }
+  .hyper-platform-list {
+    padding-top: 45px;
+  }
+  .discuss {
+    padding: 75px 0px 75px 0px;
+  }
+  .scroll-section {
+    padding-bottom: 75px;
+  }
+  #banner-page-vector-main h1 {
+    font-size: 35px;
+    padding-top: 130px;
+  }
+}
+@media (max-width: 767px) {
+  .service-detail-item {
+    min-height: 80px;
+  }
+  .service-detail-item h3 {
+    font-size: 35px;
+  }
+  .about-product-detail {
+    padding-top: 30px;
+  }
+  .about_heading h3 {
+    font-size: 27px;
+    text-align: center;
+  }
+  .about-hyper .content-link {
+    text-align: left;
+  }
+  .hyper-platform-list > .row {
+    justify-content: center;
+  }
+  .about-hyper .content-link {
+    padding-top: 15px;
+  }
+  #banner-page-vector-main small {
+    display: none;
+  }
+  .banner_contentWrapper {
+    padding-right: unset;
+  }
+  .banner-right-section img {
+    width: 70%;
+    padding-bottom: unset;
+  }
+  #banner-page-vector-main h1 {
+    font-size: 30px;
+  }
+  .about-product-services {
+    padding: 30px 30px 30px 30px;
+    margin-top: 25px;
+  }
+  .video-left {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 576px) {
+  .commontext_wrap h2,
+  .main-sub-heading,
+  .whys_section h2,
+  .metaverse_heading h3,
+  .contact_head h3,
+  .commontext_subhead h3 {
+    font-size: 22px;
+  }
+  #carousel1,
+  #carousel2,
+  #carousel3,
+  #carousel4,
+  #carousel5,
+  #carousel6 {
+    margin-top: unset;
+  }
+  .logo-carousel-list-alt {
+    padding: 60px 0px 60px 0px;
+  }
+  .service-detail-item h3 {
+    font-size: 25px;
+  }
+  .about-main-about {
+    padding-top: 60px;
+  }
+  .about-products {
+    padding: 60px 0px 60px 0px;
+  }
+  .about-product-services h3,
+  .service-detail-item h4 {
+    font-size: 20px;
+  }
+  .about_heading h3 {
+    font-size: 22px;
+  }
+  .client-carousel {
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .about-gallery {
+    padding: 25px 0px 60px 0px;
+  }
+  .about-hyperledger {
+    padding-top: 60px;
+  }
+  .hyper-platform-list {
+    padding-top: 30px;
+  }
+  .scroll-section {
+    padding-bottom: 60px;
+  }
+  #banner-page-vector-main h1 {
+    font-size: 25px;
+    padding-top: 90px;
+  }
+
+  #carousel1 img,
+  #carousel2 img,
+  #carousel3 img,
+  #carousel4 img,
+  #carousel5 img,
+  #carousel6 img {
+    width: 50% !important;
+    margin: auto !important;
+  }
+  .logo-item img {
+    width: 50% !important;
+    margin: auto !important;
+  }
+}
+
+@media (max-width: 425px) {
+  .about-people,
+  .about-platform {
+    padding-top: 40px;
+  }
+
+  .about-product-detail {
+    padding-top: 15px;
+  }
+  .client-carousel {
+    padding-top: 30px;
+    padding-bottom: 45px;
+  }
+  .about-gallery {
+    padding: 25px 0px 45px 0px;
+  }
+  .about-hyperledger {
+    padding-top: 45px;
+  }
+  .hyper-platform-list {
+    padding-top: 20px;
+  }
+  .about-main-about {
+    padding-top: 45px;
+  }
+  .about-product-services h3,
+  .service-detail-item h4 {
+    font-size: 18px;
+  }
+  .logo-carousel-list-alt {
+    padding: 45px 0px 45px 0px;
+  }
+  .about-hyperledger {
+    text-align: center;
+  }
+  .scroll-section {
+    padding-bottom: 45px;
+  }
+}

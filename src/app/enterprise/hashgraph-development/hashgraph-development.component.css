@@ -1,0 +1,70 @@
+.banner-right-section img {
+    padding-top: 180px;
+}
+.scroll-section{
+    padding-bottom: 60px;
+}
+.hash-feature {
+    padding-top: 25px;
+}
+
+@media (max-width: 991px) {
+    .banner-right-section img {
+        padding-top: 0px;
+    }
+    .bep-work-section {
+        padding-bottom: 0px;
+        padding-top: 30px;
+    }
+    .erc-about-content {
+        padding-top: 0px;
+    }
+    .metaverse_heading h3 {
+        text-align: center;
+    }
+    .hash-feature {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-right-section img {
+        padding-bottom: 25px;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+    .banner-right-section img {
+        padding-bottom: 15px;
+    }
+    .hash-feature-one{
+        margin-bottom: 3rem !important;
+    }
+    .hash-feature {
+        padding-top: 0px;
+        padding-bottom: 35px;
+    }
+    .erc-about-picture img {
+        width: 125px;
+        height: auto;
+    }
+    
+}
+
+@media (max-width: 425px) {
+ 
+   .scroll-section {
+        padding-bottom: 45px;
+    }
+    .erc-about-picture {
+        padding-top: 20px;
+    }
+    .hash-feature-one {
+        margin-bottom: 2rem !important;
+    }
+    .banner-right-section img {
+        padding-bottom: 0px;
+    }
+}

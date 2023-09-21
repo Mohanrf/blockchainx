@@ -1,0 +1,110 @@
+.banner-right-section img {
+    padding-top: 180px;
+  }
+  .caption p {
+    padding-right: 30px;
+  }
+  
+  .scroll-section {
+    padding-bottom: 60px;
+  }
+  
+  .bep-work-section {
+    text-align: center;
+  }
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 0px;
+    padding-top: 50px;
+  }
+  .list-one {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .business-stak-list-section {
+    padding-top: 20px;
+  }
+  .business-stak-list-section {
+    justify-content: center;
+    align-items: center;
+  }
+  .step-two-stak {
+    padding-top: 20px;
+  }
+  .types-of-token-detail {
+    padding-top: 70px;
+  }
+  
+  @media (max-width: 1199px) {
+  }
+  
+  @media (max-width: 991px) {
+    .banner-right-section img {
+      padding-top: 0px;
+    }
+    .metaverse_heading h3 {
+      text-align: center;
+    }
+    .main-sub-heading,
+    .common-sub-heading h4 {
+      text-align: center;
+    }
+    .common-sub-heading h4::before {
+      display: none;
+    }
+    .caption p {
+      padding-right: unset;
+    }
+    .erc-processing {
+        padding-bottom: 20px;
+    }
+    .types-of-token-detail, .erc-about-content {
+      justify-content: center;
+    }
+    .scroll-section {
+      padding-bottom: 45px;
+    }
+  
+  }
+  @media (max-width: 767px) {
+    .list-one img {
+      padding-top: 30px;
+      padding-bottom: 10px;
+    }
+    .types-of-token-detail {
+        padding-top: 50px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .main-sub-heading {
+      padding-left: unset;
+    }
+    .about-content {
+      padding-top: 0px;
+    }
+    .erc-processing {
+      padding-bottom: 25px;
+    }
+    .banner-right-section img {
+      padding-bottom: 10px;
+    }
+  }
+  @media (max-width: 425px) {
+    .list-one img {
+      padding-top: 30px;
+      padding-bottom: 0px;
+      margin-bottom: 10px;
+    }
+    .erc-20-head {
+        font-size: 20px;
+    } 
+    .erc-processing {
+      padding-top: 25px;
+    }
+    .types-of-token-detail {
+      padding-bottom: 0px;
+    }
+  }
+  

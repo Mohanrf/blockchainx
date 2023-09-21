@@ -1,0 +1,339 @@
+.case-inner-main {
+    padding-top: 170px;
+  }
+  .case-inner-main > .green-vector {
+    left: 0;
+    top: 0;
+  }
+  .case-main-banner {
+    padding-bottom: 40px;
+  }
+  .case-study-content h4,
+  .company-detail h4 {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    background: linear-gradient(89.98deg, #f5d255 -3.37%, #36e7c4 99.98%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding-bottom: unset;
+  }
+  .second-head,
+  .case-inner-image {
+    padding-top: 40px;
+  }
+  .case-study-main-content {
+    padding-bottom: 145px;
+  }
+  
+  .case-study-main-content p {
+    padding: 40px 0px 40px 0px;
+  }
+  .case-study-main-content p:last-child {
+    border-bottom: 1px solid rgba(217, 217, 217, 0.12);
+  }
+  .case-study-main-content ul li {
+    font-family: "Epilogue", sans-serif;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 1.8;
+    text-align: justify;
+  }
+  #alt-inner-image {
+    padding-bottom: 40px;
+  }
+  .tec-list {
+    border-right: 1px solid rgba(217, 217, 217, 0.12);
+  }
+  .tech-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+  }
+  .tech-list1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+  }
+  .tech-list img {
+    object-fit: scale-down;
+  }
+  .Tech-Stak {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top: 1px solid rgba(217, 217, 217, 0.12);
+    border-bottom: 1px solid rgba(217, 217, 217, 0.12);
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .detail-section-one {
+    padding: 20px 0px 20px 0px;
+    border-top: 1px solid rgba(217, 217, 217, 0.12);
+  }
+  
+  .company-detail h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+  }
+  .detail-section-two ul {
+    padding-left: 25px;
+  }
+  
+  .detail-section-two {
+    border-top: 1px solid rgba(217, 217, 217, 0.12);
+    border-bottom: 1px solid rgba(217, 217, 217, 0.12);
+    padding: 20px 0px 20px 0px;
+  }
+  .detail-section-three {
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid rgba(217, 217, 217, 0.12);
+  }
+  
+  .detail-section-two ul li {
+    list-style-type: initial;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.25;
+  }
+  
+  .company-detail {
+    padding-left: 40px;
+  }
+  
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+  }
+  
+  .facebook,
+  .instagram,
+  .twitter {
+    background: rgba(48, 48, 48, 0.3);
+    border-radius: 38px;
+    padding: 8px 30px;
+    transition: ease-in-out 0.3s;
+  }
+  .facebook {
+    border: 1px solid #3d6ad6;
+  }
+  .twitter {
+    border: 1px solid #03a9f4;
+  }
+  .instagram {
+    position: relative;
+  }
+  
+  .instagram::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50px;
+    padding: 1px;
+    background: linear-gradient(
+      256.49deg,
+      #d500b4 0%,
+      #ff0100 49.6%,
+      #ffae00 100%
+    );
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    /* border: 1px solid; */
+  }
+  .facebook:hover,
+  .instagram:hover,
+  .twitter:hover {
+    background: transparent;
+    border: 1px solid #d9d9d9;
+  }
+  
+  .case-inner-main {
+    position: relative;
+  }
+  .company-detail {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 100px;
+    bottom: 100px;
+  }
+  .first-image,
+  .second-image,
+  .third-image {
+    position: relative;
+  }
+  .first-image > .green-vector {
+    left: 0;
+    bottom: 0;
+  }
+  
+  .second-image > .orange-vector {
+    left: 0;
+    bottom: -15%;
+  }
+  
+  .third-image > .violet-vector {
+    top: -10%;
+    left: 0%;
+  }
+  .solution-unlist {
+    padding: 15px 0px;
+  }
+  .solution-unlist ul li {
+    line-height: 2.5;
+  }
+  .common-unique {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .list-heading h3 {
+    padding-top: 50px;
+    padding-bottom: 0px;
+    text-align: center;
+  }
+  .tech-list img {
+    width: 70px;
+    height: 70px;
+  }
+  
+  @media (max-width: 991px) {
+    .case-study-main-content p,
+    .case-study-main-content ul li {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .tec-list {
+      border: unset;
+    }
+    .company-detail {
+      padding-left: 15px;
+    }
+    .case-study-main-content p,
+    .second-head,
+    .case-inner-image {
+      padding: 20px 0px 20px 0px;
+    }
+    .tec-list,
+    .tec-list-alt {
+      padding-left: unset;
+    }
+    .tech-list img {
+      width: 75px;
+    }
+  
+    .facebook,
+    .instagram,
+    .twitter {
+      padding: 7px 16px;
+    }
+    .company-detail {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .case-inner-main {
+      padding-top: 120px;
+    }
+    .case-study-main-content p,
+    .second-head,
+    .case-inner-image {
+      padding: 15px 0px 15px 0px;
+    }
+    .Tech-Stak {
+      padding: 20px 0px 20px 0px;
+    }
+    .tech-list {
+      padding-top: 15px;
+    }
+    .tech-list1 {
+      padding-top: 15px;
+    }
+    .case-study-main-content {
+      padding-bottom: 50px;
+    }
+    .case-study-main-content p:last-child {
+      border: unset;
+    }
+    .company-detail {
+      padding-left: unset;
+      padding-bottom: 60px;
+    }
+    .metaverse_subheading h3 {
+      font-size: 30px;
+    }
+    .case-study-main-content p,
+    .case-study-main-content ul li {
+      font-size: 15px;
+      line-height: 1.5;
+    }
+    .common-unique{
+      padding-top: 20px;
+      padding-bottom: 0px;
+    }
+    
+  }
+  
+  @media (max-width: 576px) {
+    .metaverse_subheading h3 {
+      font-size: 27px;
+      line-height: 30px;
+    }
+    .company-detail h3,
+    .detail-section-two ul li {
+      font-size: 18px;
+    }
+    .social-link {
+      justify-content: left;
+      gap: 25px;
+    }
+    .facebook,
+    .instagram,
+    .twitter {
+      padding: 4px 16px;
+    }
+  }
+  
+  @media (max-width: 425px) {
+    .metaverse_subheading h3 {
+      font-size: 25px;
+    }
+    .facebook,
+    .instagram,
+    .twitter {
+      padding: 2px 14px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .metaverse_subheading h3 {
+      font-size: 20px;
+    }
+    .tech-list {
+      flex-direction: column;
+      gap: 15px;
+    }
+    .tech-list1 {
+      flex-direction: column;
+      gap: 25px;
+    }
+    .tech-list img {
+      width: unset;
+    }
+    .facebook,
+    .instagram,
+    .twitter {
+      padding: 2px 12px;
+    }
+    .list-heading h3 {
+      font-size: 20px;
+    }
+  }
+  

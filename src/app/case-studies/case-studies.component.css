@@ -1,0 +1,193 @@
+.banner_contentWrapper {
+  padding-bottom: unset;
+}
+.Case-Study-Banner {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  text-align: right;
+}
+
+.banner_contentWrapper > .caption {
+  padding-top: 100px;
+}
+
+.main-case-about {
+  padding: 100px 0px 100px 0px;
+  background: rgba(255, 255, 255, 0.06);
+  position: relative;
+  background-blend-mode: screen;
+}
+
+.main-case-about > .green-vector {
+  left: 0px;
+  bottom: 0px;
+}
+.main-case-about > .violet-vector {
+  right: 0px;
+  top: 0px;
+}
+.Case-About-Picture img {
+  padding-top: 60px;
+}
+.scroll-section {
+  padding-bottom: 100px;
+  text-align: right;
+}
+.Case-Star-Card {
+  padding: 100px 0px 300px 0px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.06);
+}
+.Case-Star-Card > .violet-vector {
+  right: 0px;
+  top: 0px;
+}
+.Starcard-Banner {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  text-align: right;
+}
+.Starcard-Banner img {
+  width: 95%;
+}
+.Case-Zuki {
+  padding: 115px 0px 145px 0px;
+  position: relative;
+  /* background: rgba(255, 255, 255, 0.06); */
+  background-blend-mode: screen;
+}
+.Case-Zuki > .violet-vector {
+  right: 70px;
+  top: 30px;
+}
+.Case-Alt {
+  margin-bottom: -200px;
+  padding-top: 50px;
+}
+.Case-Zuki-Banner-alt {
+  position: relative;
+  z-index: 1;
+}
+.Case-Minosis {
+  position: relative;
+  padding: 150px 0px 350px 0px;
+  background: rgba(255, 255, 255, 0.06);
+}
+.Case-Minosis > .violet-vector {
+  left: 40px;
+  top: 0px;
+}
+.Case-Minosis > .orange-vector {
+  right: 40px;
+  bottom: 0px;
+}
+.Minosis-Banner {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.Case-ekta {
+  padding: 200px 0px 200px 0px;
+  position: relative;
+  background: rgba(255, 255, 255, 0.06);
+  background-blend-mode: screen;
+}
+.Case-ekta > .orange-vector {
+  right: 0px;
+  top: 0px;
+}
+.Case-ekta > .green-vector {
+  left: 0px;
+  bottom: 0px;
+}
+.common-sub-heading-alt {
+  color: #d9d9d9;
+  background: unset;
+  -webkit-background-clip: unset;
+  -webkit-text-fill-color: unset;
+}
+
+.scroll-section img {
+  position: relative;
+  z-index: 11;
+}
+
+@media (max-width: 1300px) {
+  .Case-Study-Banner img,
+  .Starcard-Banner img,
+  .Minosis-Banner img {
+    width: 75%;
+  }
+  .Case-Star-Card,
+  .Case-Minosis {
+    padding-bottom: 150px;
+  }
+  .Case-ekta {
+    padding: 100px 0px 100px 0px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .Case-Study-Banner img,
+  .Starcard-Banner img,
+  .Minosis-Banner img {
+    width: 60%;
+  }
+  .banner_contentWrapper > .caption {
+    padding-top: unset;
+  }
+}
+@media (max-width: 991px) {
+  .Case-Study-Banner img,
+  .Starcard-Banner img,
+  .Minosis-Banner img,
+  .Case-Zuki-Banner-alt img,
+  .Case-Zuki-Banner img {
+    display: none;
+  }
+  .main-case-about,
+  .Case-Star-Card,
+  .Case-Zuki,
+  .Case-Minosis,
+  .Case-ekta {
+    padding: 75px 0px 75px 0px;
+  }
+  .scroll-section {
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .scroll-section img {
+    object-fit: contain;
+    height: 60px;
+  }
+  .case-ekta-model {
+    padding-top: 0px !important;
+  }
+}
+@media (max-width: 576px) {
+  .main-case-about,
+  .Case-Star-Card,
+  .Case-Zuki,
+  .Case-Minosis,
+  .Case-ekta {
+    padding: 60px 0px 60px 0px;
+  }
+  .scroll-section {
+    padding: 30px 0px 30px 0px;
+  }
+}
+@media (max-width: 425px) {
+  .main-case-about,
+  .Case-Star-Card,
+  .Case-Zuki,
+  .Case-Minosis,
+  .Case-ekta {
+    padding: 45px 0px 45px 0px;
+  }
+  .scroll-section {
+    padding-top: 20px;
+  }
+}

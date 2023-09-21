@@ -1,0 +1,134 @@
+.banner-right-section img {
+    padding-top: 180px;
+}
+.scroll-section{
+    padding-bottom: 60px;
+}
+.hash-feature {
+    padding-top: 25px;
+}
+.defi-value-propos {
+    padding-top: 100px;
+}
+.types-of-token-detail {
+    padding-top: 70px;
+}
+.item-image {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 25px;
+    margin: -130px auto 35px auto;
+}
+.nft_market {
+    padding: 30px 40px 40px 40px;
+    position: relative;
+    border: 1px solid #36e7c4;
+    border-radius: 10px;
+    width: 100%;
+    height: 100% ;
+    background: rgba(54, 231, 196, 0.1);
+}
+.nft-heading-section {
+    margin-bottom: 30px;
+}
+.nft-heading-section-alt h3 {
+    padding-bottom: 0px;
+}
+@media (max-width:1199px) {
+    .nft_market {
+        min-height: unset;
+        margin-top: 0px;
+        padding: 30px 20px 40px 20px;
+    }
+}
+@media (max-width: 991px) {
+    .banner-right-section img {
+        padding-top: 0px;
+    }
+    .metaverse_heading h3 {
+        text-align: center;
+    }  
+    .types-of-token-detail {
+        padding-bottom: 25px;
+    }
+    .nft-heading-section {
+        padding: 0px 0px 0px 0px;
+    }
+    .item-image {
+        margin: 0px auto 20px auto;
+    }
+    .value-propos {
+        margin-bottom: 30px;
+    }
+    .defi-value-propos {
+        padding-top: 50px;
+    }
+    .about-section-image {
+        text-align: center;
+    }
+    .about-section-image img {
+        width: 70%;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .section-about {
+        padding: 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .banner-right-section img {
+        padding-bottom: 25px;
+    }
+    .erc-about-picture img {
+        width: 125px;
+        height: auto;
+    }
+    .scroll-section {
+        padding-bottom: 40px;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+    .banner-right-section img {
+        padding-bottom: 15px;
+    }
+    .hash-feature {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .types-of-token-detail {
+        padding-bottom: 0px;
+    }
+    .item-image {
+        width: auto;
+        height: auto;
+    }
+    .about-section-image img {
+        width: 50%;
+        margin: auto;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+ 
+   .scroll-section {
+        padding-bottom: 45px;
+    }
+    .banner-right-section img {
+        padding-bottom: 0px;
+    }
+    .nft_market{
+        padding: 20px 20px 30px 20px;
+    }
+    .item-image{
+        padding-bottom: 0px;
+        text-align: center;
+    }
+    .metaverse_heading h3 {
+        font-size: 22px;
+    }
+    
+}

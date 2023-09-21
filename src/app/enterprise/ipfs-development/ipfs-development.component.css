@@ -1,0 +1,128 @@
+.banner-right-section img {
+    padding-top: 180px;
+}
+.scroll-section{
+    padding-bottom: 60px;
+}
+.video-heading{
+    padding-bottom: 15px;
+}
+.cmt-5 {
+    margin-top: -75px;
+}
+.video-section-top p{
+    font-weight: 400;
+    line-height: 1.8;
+}
+.video-left p{
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+
+@media (max-width: 1199px){
+    .video-heading{
+        padding-bottom: 10px;
+    }
+    .video-left p {
+        font-weight: 400;
+        line-height: 1.6;
+    }
+    .cmt-5 {
+        margin-top: -25px;
+    }
+}
+
+@media (max-width: 991px) {
+    .banner-right-section img {
+        padding-top: 0px;
+    }
+    .metaverse_heading h3 {
+        text-align: center;
+    }
+    .bep-work-section {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .video-left {
+        padding-left: 12px;
+    }
+    .about-section-image{
+        padding-top: 30px;
+    }
+    .cmt-5{
+        margin-top: 50px;
+    }
+    .video-section-top {
+        padding-top: 50px;
+    }
+    .erc-about-content {
+        padding-bottom: 40px;
+    }
+   
+}
+
+@media (max-width: 767px) {
+    .banner-right-section img {
+        padding-bottom: 25px;
+    }
+    .erc-about-content {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    .video-section-top {
+        padding-top: 40px;
+    }
+    .cmt-5 {
+        margin-top: 40px;
+    }
+    .about-section-image img {
+        width: 70%;
+    }
+    .erc-about-picture img {
+        width: 100px;
+        height: auto;
+    }
+    .scroll-section {
+        padding-bottom: 40px;
+    }
+}
+
+@media (max-width: 576px) {
+    .banner-right-section img {
+        padding-bottom: 15px;
+    }
+    .video-section-top {
+        padding-top: 30px;
+    }
+    .erc-about-picture {
+        padding-top: 20px;
+    }
+    .about-section-image {
+        padding-top: 20px;
+    }
+    .erc-about-content{
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 425px) {
+ 
+   .scroll-section {
+        padding-bottom: 45px;
+    }
+    .banner-right-section img {
+        padding-bottom: 0px;
+    }
+    .video-section-top {
+        padding-top: 20px;
+    }
+    .bep-work-section {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .about-section-image {
+        padding-top: 0px;
+    }
+
+}

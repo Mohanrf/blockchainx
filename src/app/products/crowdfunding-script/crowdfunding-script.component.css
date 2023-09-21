@@ -1,0 +1,217 @@
+.banners-section {
+  padding-bottom: 60px;
+}
+.banner_contentWrapper {
+  padding-top: 225px;
+}
+.banner-right-section img {
+  padding-top: 90px;
+}
+.types-of-token-detail {
+  padding-top: 60px;
+}
+
+.develop-erc,
+.product-list-feature,
+.our-products {
+  position: relative;
+}
+
+.cmt-5 {
+  margin-top: -75px;
+}
+
+.product-services {
+  position: relative;
+  padding-bottom: 50px;
+}
+.case_studies_hr {
+  width: 100% !important;
+  border: 0.75px solid #d9d9d9 !important;
+  margin: 45px 0px 45px 0px !important;
+  opacity: 0.5;
+}
+.casestudy_head h3 {
+  padding-bottom: 10px;
+}
+.erc-processing {
+  padding-top: 0px;
+}
+.virtual_process {
+  position: relative;
+  padding: 60px 30px 0px 30px;
+}
+
+@media (max-width: 1199px) {
+  .banner-right-section img {
+    padding-top: 150px;
+  }
+  .banners-section {
+    padding-bottom: 60px;
+  }
+  .product-about-detail {
+    padding-top: 45px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+  .banner_contentWrapper {
+    padding: 180px 0px 50px 10px;
+  }
+  .banners-section {
+    padding-bottom: 30px;
+  }
+
+  .video-section-top {
+    padding-top: unset;
+  }
+  .video-left {
+    padding-left: 15px;
+  }
+  .cmt-5 {
+    margin-top: 40px;
+  }
+
+  .acc-sec-list {
+    padding-top: 40px;
+  }
+
+  .erc-about-content {
+    padding-top: 10px;
+  }
+  .process-erc {
+    padding-top: 20px;
+  }
+  .erc-processing {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+  .product-category-list {
+    padding-top: 30px;
+  }
+   .metaverse_heading h3 {
+    text-align: center;
+   }
+   .types-of-token-detail {
+    padding-bottom: 25px;
+   }
+   .erc-processing {
+    padding-top: 0px;
+   }
+   .virtual_process {
+    padding: 30px 20px 0px 20px;
+   }
+   .acc-sec img {
+    width: 60%;
+    padding-bottom: 30px;
+   }
+   .metaverse_subheading {
+    padding-top: 20px;
+   }
+   .product-about-detail {
+    padding-top: 10px;
+   }
+   .process-image {
+    padding-top: 20px;
+   }
+}
+@media (max-width: 767px) {
+  .banner_contentWrapper {
+    padding: 150px 0px 50px 10px;
+  }
+  .uni-clone img {
+    width: 50%;
+  }
+  .erc-about-content {
+    padding-top: 10px;
+  }
+  .process-erc {
+    padding-top: 20px;
+  }
+  .metaverse_subheading h3 {
+    font-size: 24px;
+}
+  .product-category-list {
+    padding-top: 20px;
+  }
+  .types-of-token-detail {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 576px) {
+  .metaverse_subheading h3 {
+    font-size: 20px;
+  }
+
+  .types-erc-detail {
+    text-align: center;
+  }
+  .types-erc-detail h4 {
+    font-size: 18px;
+  }
+  .banners-section {
+    padding-bottom: 15px;
+  }
+  .product-about-detail {
+    padding-top: 15px;
+  }
+  .acc-sec-list {
+    padding-top: 20px;
+  }
+  .product-services {
+    position: relative;
+    padding-bottom: 35px;
+  }
+  .erc-about-picture {
+    padding-top: 20px;
+  }
+  .erc-processing {
+    padding-top: 25px;
+    padding-bottom: 35px;
+  }
+  .video-section-top {
+    padding-top: 30px;
+  }
+  .process-image {
+    padding-bottom: unset;
+  }
+}
+
+@media (max-width: 425px) {
+  .erc-about-picture h4 {
+    font-size: 20px;
+  }
+  .erc-about-picture img {
+    width: 50%;
+  }
+  .product-category-list {
+    padding-top: 0px;
+}
+.video-section-top {
+  padding-top: 10px;
+}
+  .banners-section {
+    padding-bottom: 0px;
+  }
+  .types-erc-detail h4 {
+    font-size: 18px;
+  }
+  .process-image {
+    padding-top: 10px;
+  }
+  .erc-processing {
+    padding-top: 0px;
+  }
+  .casestudy_head {
+    padding-bottom: 0px;
+  }
+  .casestudy_head h3 {
+    padding-bottom: 0px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 0px;
+  }
+}

@@ -1,0 +1,126 @@
+
+.banner-right-section img {
+  padding-top: 90px;
+}
+
+.common-sub-heading-alt {
+  font-weight: 600;
+  background: linear-gradient(89.98deg, #f5d255 -3.37%, #36e7c4 99.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.scroll-section {
+  padding-bottom: 60px;
+}
+.cmt-5 {
+  margin-top: -75px;
+}
+
+.video-section-top {
+  padding-top: 70px;
+}
+.product-demo-video {
+  width: 100%;
+  height: 375px;
+}
+
+@media (max-width:1399px) {
+  .product-demo-video {
+    width: 100%;
+    height: 330px;
+  }
+}
+
+@media (max-width: 1199px) {
+  .banner-right-section img {
+    padding-top: 150px;
+  }
+
+  .video-section-top {
+    padding-top: 60px;
+  }
+  .product-demo-video {
+    width: 100%;
+    height: 275px;
+  }
+
+}
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 0px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+
+  .metaverse_subheading h3 {
+    font-size: 25px;
+  }
+  .video-section-top {
+    padding-top: 25px;
+  }
+  .video-left {
+    padding-left: 15px;
+  }
+  .cmt-5 {
+    margin-top: 40px;
+  }
+  .uni-clone img {
+    padding-bottom: 40px;
+  }
+  .acc-image img {
+    padding-bottom: 40px;
+  }
+  .admin-dash {
+    padding-bottom: 0px;
+  }
+  .virtual_process {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .banner_contentWrapper {
+    padding: 150px 0px 50px 10px;
+  }
+  .banner-right-section img {
+    padding-bottom: 0px;
+  }
+}
+
+@media (max-width:575px) {
+  .virtual_process,
+  .commontext_wrap h2 span {
+    text-align: center;
+  }
+  .metaverse_subheading h3 {
+    font-size: 20px;
+  }
+  .scroll-section {
+    padding-bottom: 40px;
+  }
+  .product-demo-video {
+    width: 100%;
+    height: 200px;
+  }
+}
+@media (max-width: 420px) {
+  .erc-link {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .acc-sec-list {
+    padding-top: 50px;
+  }
+  .video-section-top {
+    padding-top: 20px;
+  }
+  .product-category-list {
+    padding-top: 0px;
+  }
+  .metaverse_subheading h3 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+}

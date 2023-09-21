@@ -1,0 +1,655 @@
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+ Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================No routes defined in ""The option outDir isn't configured, using default folder ".\dist\static\".
+
+
+
+(You can skip this, or any future question by using the --noPrompt flag)
+handleUnknownRoute: "/assets-new/images/blog-single/nft-staking.png", 404:""handleUnknownRoute: "/assets-new/images/blog-single/NFT-1.jpg", 404:""handleUnknownRoute: "/assets-new/images/blog-single/keys.png", 404:""
+
+
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-single/nft-staking.png", 404:""handleUnknownRoute: "/assets-new/images/blog-single/NFT-1.jpg", 404:""
+handleUnknownRoute: "/assets-new/images/blog-single/keys.png", 404:""
+
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+
+
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+Puppeteer error while rendering "/nft-sports-platforms-development"
+TimeoutError: Navigation timeout of 30000 ms exceeded
+ we will retry rendering this page up to 3 times.
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""
+handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+handleUnknownRoute: "/assets-new/images/close-vector.png", 404:""handleUnknownRoute: "/assets-new/images/pop-up.png", 404:""
+
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+ Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in ""
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+ Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================No routes defined in ""The option outDir isn't configured, using default folder ".\dist\static\".
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\". Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================No routes defined in ""
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""
+
+      =====================================================================================================
+      Config file ".\scully.blockchainx.config.ts" not found, only rendering routes without parameters
+      The config file should have a name that is formated as:
+          scully.<projectName>.config.ts
+      where <projectName> is the name of the project as defined in the 'angular.json' file
+      If you meant to build a different project as undefined you can use:
+          --project differentProjectName as a cmd line option
+
+      When you are in a mixed mono-repo you might need to use the --pjFirst flag.
+       which will look for package.json instead of angular.json to find the 'root' of the project.
+    =====================================================================================================
+The option outDir isn't configured, using default folder ".\dist\static\".No routes defined in "" Deprecation Notice:
+       ======================================================================
+         From now on, the plugin that is being used to render a route is
+         able to be changed by the user. You can do this by adding or
+         enabling the plugin your scully.blockchainx.config.ts
+         file. For your convenience, we loaded the Puppeteer plugin for you.
+
+         To disable this warning enable the plugin of your choice.
+         for Puppeteer please add:
+             import '@scullyio/scully-plugin-puppeteer';
+          to your scully.blockchainx.config.ts file.
+
+          When you get this warning while not using scully-plugin-puppeteer
+          you need to set the defaultRouteRenderer to the name of your plugin.
+          The defaultRouteRenderer is now set to 'routeRenderer'.
+       ======================================================================
+
+
+
+----------------------------------Using stored unhandled routes!.   To discover new routes in the angular app use "npx scully --scanRoutes"----------------------------------
+
+
+
+handleUnknownRoute: "/assets-new/images/blog-new/Know-everything-about-Blockchain-metaverse.png", 404:""
+handleUnknownRoute: "/assets-new/images/blog-new/10-big-brands-jumping-on-the-NFT.png", 404:""

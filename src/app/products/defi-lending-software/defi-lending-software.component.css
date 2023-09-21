@@ -1,0 +1,257 @@
+.erc-link {
+    display: flex;
+    gap: 80px;
+  }
+  .banners-section {
+    position: relative;
+    padding-bottom: 100px;
+  }
+  .banner_contentWrapper {
+    padding-top: 225px;
+  }
+  .banner-right-section img {
+    padding-top: 90px;
+  }
+  .types-of-er{
+    padding: 100px 0px 100px 0px;
+  }
+  .product-about-detail {
+    padding-top: 65px;
+  }
+  .product-about-detail .metaverse_subheading {
+    padding: 40px 0px 20px 0px;
+  }
+ .types-of-token-detail {
+    padding-top: 60px;
+  }
+  .types-erc-detail {
+    padding: 30px;
+    background: rgba(48, 48, 48, 0.1);
+    border: 1px solid #191a1e;
+    border-radius: 8px;
+    position: relative;
+    transition: ease-in 0.3s;
+  }
+  .types-erc-detail:hover {
+    background: rgba(78, 31, 163, 0.1);
+    border: 1px solid #562caf;
+  }
+  .process-comm-head{
+    padding-top: 65px;
+  }
+  .erc-processing{
+    padding-top: 65px;
+  }
+
+  /* NFT MARKETPLACE */
+  .nft_field_market{
+    padding: 30px;
+    background: rgba(48, 48, 48, 0.1);
+    border: 1px solid #191a1e;
+    border-radius: 8px;
+    position: relative;
+    transition: ease-in 0.3s;
+    height: 100%;
+  }
+  .nft_field_market:hover{
+    background: rgba(78, 31, 163, 0.1);
+    border: 1px solid #562caf;
+  }
+  .field-slider{
+    padding-top: 65px;
+  }
+  .casestudy_head h3 {
+    padding: 0 0 10px 0;
+  }
+  .case_studies_hr {
+    width: 100% !important;
+    opacity: 0.5;
+    border: 0.75px solid #d9d9d9 !important;
+    margin: 45px 0px 45px 0px !important;
+    }
+
+    /* OUR PRODUCTS */
+    .product-category-list{
+        padding-top: 65px;
+    }
+    .product-category-list .content-link {
+        padding-top: 40px;
+    }
+
+
+
+  @media (max-width: 1199px) {
+    .banner-right-section img {
+      padding-top: 150px;
+    }
+  
+    .field-slider {
+        padding-top: 100px;
+    }
+    .banners-section {
+        padding-bottom: 60px;
+    }
+
+  }
+  @media (max-width: 991px) {
+    .banners-section {
+      padding-bottom: 30px;
+     }  
+    .banner-right-section img {
+      padding-top: 30px;
+    }
+    .banner_contentWrapper {
+      padding: 180px 0px 50px 10px;
+    }
+    .metaverse_heading h3 {
+      text-align: center;
+    }
+    .product-about-detail .metaverse_subheading {
+      padding: 20px 0px 10px 0px;
+    }
+    .metaverse_subheading h3 {
+      font-size: 25px;
+    }
+    .product-about-detail {
+        padding-top: 40px;
+    }
+    #product-abot-det{
+      flex-direction: column-reverse;
+    }
+    .types-of-er {
+        padding: 75px 0px 75px 0px;
+    }
+    .process-comm-head {
+        padding-top: 45px;
+    }
+    .erc-processing {
+        padding-top: 45px;
+      padding-bottom: 50px;
+    }
+    .field-slider {
+        padding-top: 60px;
+    }
+    .field-slider .field-common-slider{
+        justify-content: center;
+        align-items: center;
+    }
+    .casestudy_head h3 {
+        padding: 0 0 0px 0;
+    }
+    .product-category-list {
+        padding-top: 30px;
+    }
+    .product-category-list {
+        gap: 30px;
+    }
+    .product-category-list .content-link {
+        padding-top: 20px;
+    }
+    .nft_field_market {
+        padding: 20px;
+    }
+    .nft_field_market {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      margin-bottom: 30px;
+  }
+    .item-image {
+      width: 160px;
+      height: 160px;
+      margin: 0px auto 0px auto;
+    }
+    .types-of-token-detail {
+      padding-bottom: 25px;
+    }  
+    .banner-right-section img {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+  }
+  @media (max-width: 767px) {
+    .banner_contentWrapper {
+      padding: 150px 0px 50px 10px;
+    }
+    .uni-clone img {
+      width: 50%;
+    }
+    .banners-section {
+      padding-bottom: 30px;
+  }
+    .product-about-detail{
+        padding-top: 30px;
+    }
+    .types-of-token-detail {
+        padding-top: 50px;
+    }
+    .process-comm-head {
+        padding-top: 30px;
+    }
+    .erc-processing {
+        padding-top: 30px;
+    }
+    .field-slider {
+        padding-top: 60px;
+    }
+    .field-two-slider{
+        padding-top: 0px;
+    }
+    .casestudy_para {
+      padding-bottom: 20px;
+      padding-top: 0px;
+    }
+  
+  }
+  @media (max-width: 576px) {
+    .metaverse_subheading h3 {
+      font-size: 20px;
+    }
+    .row {
+      padding-right: unset;
+      padding-left: unset;
+    }
+    .product-about-detail {
+      padding-top: 20px;
+    }
+    .banners-section {
+      padding-bottom: 15px;
+    }  
+    .types-of-er {
+        padding: 60px 0px 60px 0px;
+    }
+    .erc-processing {
+      padding-bottom: 40px;
+    }
+    .process-comm-head {
+        padding-top: 20px;
+    }
+    .product-category-list {
+        padding-top: 20px;
+    }
+    .process-image {
+      padding-top: 10px;
+    }
+  }
+  @media (max-width: 425px) {
+    .erc-link {
+      flex-direction: column;
+      gap: 20px;
+    }
+    .types-erc-comm {
+      margin-top: 50px;
+    }
+  .banners-section{
+    padding-bottom: 0px;
+  }
+  .types-of-er {
+    padding: 45px 0px 45px 0px;
+    }
+    .erc-20-head-alt {
+      font-size: 18px;
+    }
+    .field-slider {
+      padding-top: 40px;
+    }
+  }
+ 

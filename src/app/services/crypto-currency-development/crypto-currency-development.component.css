@@ -1,0 +1,116 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+
+#erc-link {
+  margin-top: -50px;
+}
+
+.types-of-token {
+  margin-bottom: 50px;
+}
+.erc-about-content {
+  padding-top: 0px;
+}
+
+.techstack_img {
+  text-align: center;
+}
+.techstack_img img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  /* opacity: 0.3; */
+  margin-bottom: 25px;
+}
+.techstack_img > img:hover {
+  opacity: 1;
+}
+.tron-token-images {
+  padding-top: 60px;
+}
+.metaverse_heading h3 {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+  .types-of-erc::before {
+    display: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+
+  .why-nft-read-more {
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .main-sub-heading,
+  .common-sub-heading h4 {
+    text-align: center;
+  }
+  #erc-link {
+    margin-top: unset;
+  }
+  .types-of-token-detail {
+    padding-top: 60px;
+    padding-bottom: 25px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .erc-about-content {
+    padding-top: 0px;
+  }
+  .erc-processing {
+    padding-bottom: 45px;
+  }
+  .tron-token-images {
+    padding-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .erc-about-picture {
+    padding-top: 30px;
+  }
+  .types-of-token-detail {
+    padding-top: 35px;
+  }
+  .tron-token-images {
+    padding-top: 35px;
+  }
+  .erc-processing {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .erc-processing {
+    padding-bottom: 0;
+  }
+  .erc-about-picture {
+    padding-top: 10px;
+  }
+  .erc-processing {
+    padding-bottom: 25px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 425px) {
+  .erc-processing {
+    padding-top: 10px;
+  }
+  .tron-token-images {
+    padding-top: 15px;
+  }
+}

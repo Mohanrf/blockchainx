@@ -1,0 +1,41 @@
+.page-not-found {
+  padding: 150px 0px 100px 0px;
+}
+
+.home-link-alt {
+  font-family: "Syne", sans-serif;
+  border-radius: 8px;
+  padding: 12px 21px;
+  outline: 0;
+  box-shadow: unset;
+  margin-right: 20px;
+  transition: 0.3s all ease-in-out;
+  background: rgba(245, 210, 85, 0.1);
+  border: 1px solid #f5d255;
+}
+
+.home-link-alt:hover {
+  background: #36e7c4;
+  border: 1px solid #36e7c4;
+  color: #000000;
+}
+
+.redirect-link {
+  padding-top: 50px;
+}
+
+.violet-vector {
+  right: 0;
+  bottom: 0;
+}
+
+@media (max-width: 767px) {
+  .not-found-picture img {
+    width: 75%;
+    margin: auto;
+  }
+  .page-not-found {
+    padding-bottom: 65px;
+    padding-top: 120px;
+  }
+}

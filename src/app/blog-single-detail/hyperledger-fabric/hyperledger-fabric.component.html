@@ -1,0 +1,366 @@
+<section class="blog-detail">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 mb-4">
+        <div class="blog-single-wrap">
+          <img
+            src="assets-new/images/blog/hyperledger-fabric-v2.jpg"
+            alt="New Hyperledger Fabric v2.0"
+            class="img-fluid"
+            width="100%"
+            height="100%"
+            loading="lazy"
+          />
+          <h1>New Hyperledger Fabric v2.0: Everything you need to know</h1>
+          <p>
+            The release of the new Hyperledger Fabric v2.0 brings forth many new
+            upgrades and changes to the previous v1.4.
+          </p>
+          <p>
+            But what exactly is Hyperledger Fabric? And why are people talking
+            about it? It’s easy to get confused with all these words being
+            thrown around. Many people still have a hard time understanding what
+            blockchain technology is and how it works.
+          </p>
+          <p>
+            So here is everything you need to know about Hyperledger Fabric
+            v2.0.
+          </p>
+
+          <h2>Hyperledger</h2>
+          <p>
+            To know what Hyperledger Fabric is, you should know what Hyperledger
+            is. Yes, there is a distinction between these two terms.
+          </p>
+          <p>
+            Hyperledger is an umbrella project by the Linux Foundation and
+            consists of several Frameworks and Modules. These tools allow
+            businesses to develop blockchain-based private networks and
+            applications to suit their needs.
+          </p>
+          <h2>Permissioned Blockchains</h2>
+          <p>
+            This the major feature that separates Hyperledger from conventional
+            blockchains.
+          </p>
+          <p>
+            While blockchain technology is a decentralized permissionless ledger
+            that is available openly to the public, Hyperledger is a private
+            permissioned network where businesses can store their confidential
+            private data. Businesses can limit access to this private data to
+            permissioned entities or persons.
+          </p>
+          <h2>Hyperledger Fabric</h2>
+          <p>
+            Hyperledger Fabric is a framework for
+            <a [routerLink]="['/hyperledger-blockchain-development']"
+              ><b>distributed ledger solutions</b></a
+            >
+            that allows enterprise businesses to develop blockchain solutions
+            and applications with a modular architecture and delivers high
+            levels of flexibility, confidentiality, resiliency, and scalability.
+          </p>
+          <p>
+            Its modular architecture allows components such as consensus and
+            membership services to be plug-n-play, allowing businesses to
+            resolve complexities in their economic ecosystem.
+          </p>
+          <p>
+            Unlike permissionless blockchains like Bitcoin, which allows public
+            users into the network to make transactions, Hyperledger Fabric
+            allows entities to conduct confidential transactions with
+            permissioned members via a trusted membership service provider.
+          </p>
+          <h2>What’s New in Hyperledger Fabric v2.0?</h2>
+          <p>
+            Hyperledger v2.0 is the first major release after v1.4 back in
+            January 2019 and brings us many new upgrades and changes for both
+            users and operators.
+          </p>
+          <p>
+            V2.0 now offers support for new applications and privacy patterns,
+            enhanced governance for smart contracts, and new options for
+            operating nodes.
+          </p>
+          <p>
+            Moreover, you still have the ability to upgrade network components
+            on your own terms, with support for rolling changes from the
+            previous version. This means that you can upgrade each network
+            component one at a time, with no downtime.
+          </p>
+          <p>
+            Additionally, it also has the option to enable the new features only
+            when the member organizations are ready.
+          </p>
+          <p>
+            Now let’s dig a little bit deeper into what Hyperledger Fabric v2.0
+            has to offer.
+          </p>
+          <h2>Governance for Smart Contract</h2>
+          <p>
+            Something totally new in Hyperledger Fabric v2.0 is the
+            decentralized governance for
+            <a [routerLink]="['/smart-contract-development']"
+              ><b> smart contracts. </b></a
+            >
+            You also get a new process for installing a chaincode on your peer
+            and starting it on a channel.
+          </p>
+          <p>
+            The new chaincode lifecycle enables multiple organizations to arrive
+            at an agreement on the chaincode’s parameters, such as the
+            endorsement policy of the chaincode, before you use it to interact
+            with the ledger.
+          </p>
+          <h3>More flexibility for Fabric chaincode lifecycle</h3>
+          <p>
+            In the previous releases of Hyperledger Fabric, only one
+            organization was able to set the parameters of a chaincode, such as
+            an endorsement policy, for all other members. The other members
+            couldn’t take part in the transactions that invoked the chaincode as
+            they only had the power to refuse the installation of the chaincode.
+          </p>
+          <p>
+            The new Fabric v2.0 chaincode lifecycle now supports decentralized
+            trust models along with the centralized trust model of the previous
+            version, making it much more flexible.
+          </p>
+          <p>
+            The decentralized trust model requires a sufficient number of
+            organizations to agree on an endorsement policy before enabling the
+            chaincode on the channels.
+          </p>
+          <h3>Chaincode upgrade process is now more deliberate</h3>
+          <p>
+            Only one organization could issue the upgrade transaction in the
+            previous chaincode lifecycle, creating a potential risk for the
+            channel member that had not yet installed the new chaincode.
+          </p>
+          <p>
+            With the new model, a sufficient number of organizations have to
+            approve the upgrade before the chaincode is upgraded.
+          </p>
+          <h3>
+            Private data collection updates and simpler endorsement policy
+          </h3>
+          <p>
+            The Fabric v2.0 lifecycle allows you to change a private data
+            collection configuration or an endorsement policy without
+            repackaging or reinstalling the chaincode.
+          </p>
+          <p>
+            Users also get a new endorsement policy that needs endorsement from
+            a majority of the members on the channel. This policy is
+            automatically updated when members are added or removed.
+          </p>
+          <h3>Inspectable chaincode packages</h3>
+          <p>
+            The new lifecycle packages chaincodes in easily readable tar files.
+            This makes the process of inspecting the chaincode package easier
+            and simplifies coordinate installation across multiple
+            organizations.
+          </p>
+          <h3>Use one package to start multiple chaincodes on a channel</h3>
+          <p>
+            In the previous lifecycle, a name and version specified during the
+            chaincode package installation defined each chaincode on the
+            channel.
+          </p>
+          <p>
+            You can now deploy multiple chaincodes with different names on the
+            same channel or on different channels using a single chaincode
+            package.
+          </p>
+          <h3>
+            No need for chaincode packages to be identical across channel
+            members
+          </h3>
+          <p>
+            Organizations can now extend a chaincode for their own use case, for
+            instance, if the member wants to perform different validations in
+            the interest of their organization.
+          </p>
+          <p>
+            The transaction will be validated and added to the ledger, as long
+            as the number of required organizations endorse the chaincode
+            transactions with matching results.
+          </p>
+          <p>
+            This way, organizations can individually roll out minor fixes on
+            their own schedules without needing the entire network to proceed in
+            lock-step.
+          </p>
+          <h2>
+            New Chaincode Application Patterns For Consensus and Collaboration
+          </h2>
+          <p>
+            You can use the decentralized methods of coming to an agreement that
+            supports the new chaincode lifecycle, in your own chaincode
+            applications, to ensure that organizations consent to data
+            transactions before they are added to the ledger.
+          </p>
+          <h3>Automated checks</h3>
+          <p>
+            Validating additional information before endorsing a transaction
+            proposal is now simplified, as organizations can now add automated
+            checks to chaincode functions.
+          </p>
+          <h3>Decentralized agreement</h3>
+          <p>
+            You can model a chaincode process that spans multiple transactions
+            based on human decisions. Actors from various organizations can
+            indicate their terms and conditions of the agreement in a ledger
+            transaction.
+          </p>
+          <p>
+            A final chaincode proposal can then verify whether the conditions
+            set by all individuals are met, and settle the business transaction.
+          </p>
+          <h3>Enhancements for private data</h3>
+          <p>
+            New patterns for sharing and working with private data is something
+            else that’s new in Hyperledger Fabric v2.0.
+          </p>
+          <p>
+            This process does not require the creation of private data
+            collection for all combinations of channel members that may want to
+            transact.
+          </p>
+          <p>
+            In other words, instead of sharing private data within a collection
+            of multiple members, you may want to share it with multiple
+            collections where each collection will have a single organization or
+            an organization along with a regulator or auditor.
+          </p>
+          <p>
+            Hyperledger Fabric v2.0 has several enhancements to enable these new
+            private data patterns.
+          </p>
+          <h3>Sharing and verifying private data</h3>
+          <p>
+            You can share private data with a channel member who is not a member
+            of a collection, or with another private data collection that has
+            one or more channel members.
+          </p>
+          <p>
+            Here the parties on the receiving end can verify if the private data
+            matches the co-chain hashes created from private data in previous
+            transactions, using a chaincode API.
+          </p>
+          <h3>Collection-level endorsement policies</h3>
+          <p>
+            You now get the option to define private data collections using an
+            endorsement policy. The endorsement policy overrides the
+            chaincode-level endorsement policy for keys within the collection.
+          </p>
+          <p>
+            You can use this feature to control which organizations can write
+            data to a collection. Moreover, it enables the chaincode lifecycle
+            and the chaincode application patterns that we talked about earlier.
+          </p>
+          <h3>Implicit per-organization collections</h3>
+          <p>
+            In Fabric v2.0, you can use Implicit organization-specific
+            collections without any upfront definition. If you want to utilize
+            the per-organization private data patterns, you don’t even have to
+            define the collections when deploying chaincode.
+          </p>
+          <h2>External Chaincode Launcher</h2>
+          <p>
+            Operators can build and launch chaincode with the technology of
+            their choice with the external chaincode launcher feature. Because
+            the default behavior builds and runs the chaincode in the same
+            manner as prior releases using the Docker API, the use of external
+            builders and launchers is not required.
+          </p>
+          <h3>Eliminate Docker daemon dependency</h3>
+          <p>
+            The Hyperledger Fabric required peers to have access to a docker
+            daemon to build and launch a chaincode in its prior releases. This
+            is not something you’d want in production environments because of
+            the privileges required by the peer process. Fabric v2.0 eliminates
+            this dependency
+          </p>
+          <h3>Container alternatives</h3>
+          <p>
+            The operator can now run the chaincode in the environment of their
+            choice and don’t need to be run in Docker containers.
+          </p>
+          <h3>External builder executables</h3>
+          <p>
+            An operator can now override how the peer builds and launches
+            chaincode by providing a set of external builder executables.
+          </p>
+          <h3>Chaincode as an external service</h3>
+          <p>
+            You can now run a chaincode as an external service, while in the
+            previous releases, the peer had to launch the chaincodes and then
+            connect back to the peer.
+          </p>
+          <h2>Improved Performance on CouchDB with State Database</h2>
+          <p>
+            Read delays during endorsement and validation phases have always
+            been a performance issue while using the CouchDB sate database.
+          </p>
+          <p>
+            Hyperledger Fabric v2.0 now provides fast local cache reads with a
+            new peer cache that replaces many of the expensive lookups.
+          </p>
+          <h2>Alpine-based Docker Images</h2>
+          <p>
+            Docker images in Hyperledger Fabric v2.0 will now use a
+            security-oriented and lightweight Linux distribution called Alpine
+            Linux. This provides faster downloads, start-up times, and takes up
+            less disk space on host systems as the images are now much smaller.
+          </p>
+          <p>
+            Alpine Linux is designed with security as the highest priority and
+            it’s minimalist nature greatly reduces the risk of security
+            vulnerabilities.
+          </p>
+          <h2>Sample Test Network</h2>
+          <p>
+            The fabric-samples repository in v2.0 now gets a new Fabric test
+            network. The test network, built to be a modular and user-friendly
+            sample fabric, makes it easy to test your applications and smart
+            contracts.
+          </p>
+          <p>
+            You can also deploy your network using Certificate Authorities, in
+            addition to Cryptogen.
+          </p>
+          <h2>Well, That’s About It!</h2>
+          <p>So, folks, that’s about it for now.</p>
+          <p>
+            We’ve looked at just about everything that’s new in Hyperledger
+            Fabric v2.0.
+          </p>
+          <p>
+            Thank you for reading this far, and hope this article helped you
+            out.
+          </p>
+          <p>
+            If you need any more information on anything related to blockchain
+            technology, do let us know in the comment section below.
+          </p>
+          <p>We’ll make a post just on that.</p>
+          <p>
+            If you found this helpful, do share it with your peers on your
+            social media. And don’t forget to check back often for more content.
+          </p>
+        </div>
+        <app-social></app-social>
+      </div>
+      <div class="col-lg-4 col-md-12 stick-blog">
+        <app-blog-sidebar></app-blog-sidebar>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+        <app-comments></app-comments>
+      </div>
+    </div>
+  </div>
+</section>
+<app-blog></app-blog>
+<app-contactform></app-contactform>

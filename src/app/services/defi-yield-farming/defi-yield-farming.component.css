@@ -1,0 +1,139 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+.caption p {
+  padding-right: 30px;
+}
+.scroll-section {
+  padding-bottom: 60px;
+}
+.erc-about-picture img {
+  padding-bottom: 20px;
+}
+
+/* DEFI VALUE PROPOSITION */
+.item-image {
+  width: 200px;
+  height: 200px;
+  padding-bottom: 25px;
+  margin: -130px auto 35px auto;
+}
+.nft_market {
+  padding: 30px 40px 40px 40px;
+  position: relative;
+  border: 1px solid #36e7c4;
+  border-radius: 10px;
+  width: 100%;
+  height: 100%;
+  background: rgba(54, 231, 196, 0.1);
+}
+.defi-value-propos {
+  padding-top: 100px;
+}
+
+/* media-screen */
+@media (max-width: 1199px) {
+  .nft_market {
+    min-height: unset;
+    margin-top: 0px;
+  }
+   
+}
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+  .erc-about-picture {
+    padding-top: 30px;
+  }
+  .about-content {
+    padding-bottom: 50px;
+  }
+
+  .nft-heading-section {
+    padding: 0px 0px 0px 0px;
+  }
+  .defi-value-propos {
+    padding-top: 50px;
+  }
+  .value-propos{
+    margin-bottom: 30px;
+  }
+  .nft_market { 
+    padding: 30px 20px 40px;
+  }
+  .item-image{
+    margin: 0 auto 20px;
+  }
+  .erc-about-content {
+    padding-top: 15px;
+  }
+  .about-section-image {
+    padding-bottom: 30px;
+  }
+  .about-content h3 {
+    text-align: center;
+  }
+}
+@media (max-width: 767px) {
+  .erc-about-content {
+    padding-top: unset;
+  }
+  .erc-about-picture img {
+    padding-bottom: 0px;
+    width: 125px;
+    height: 125px;
+    object-fit: scale-down;
+  }
+  .about-content {
+    padding-bottom: 20px;
+  }
+  .banner-right-section img {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .scroll-section {
+    padding-bottom: 20px;
+  }
+  .erc-about-content {
+    padding-top: 0px;
+  }
+  .nft_market{
+    margin-top: 0px;
+    min-height: 0px !important;
+    padding: 30px 20px 40px 20px;
+  }
+  .item-image {
+      width: unset;
+      height: unset;
+      margin: 0px auto 0px;
+  }
+  .about-section-image img {
+     width: 65%;
+  }
+}
+@media (max-width: 425px) {
+  .erc-link {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .erc-about-picture {
+    padding-top: 15px;
+  }
+  .banner-right-section img{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .item-image {
+    padding-bottom: 15px;
+  }
+
+}

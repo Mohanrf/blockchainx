@@ -1,0 +1,243 @@
+<section class="blog-detail">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-12 mb-4">
+        <div class="blog-single-wrap">
+          <img
+            src="assets-new/images/blog/erc-1155.jpg"
+            alt="Explore the ERC-1155 Token Standard"
+            class="img-fluid"
+            width="100%"
+            height="100%"
+            loading="lazy"
+          />
+          <h1>ERC1155 – Explore the ERC-1155 Token Standard</h1>
+          <p>
+            If you understand what an
+            <a [routerLink]="['/non-fungible-token-development']"> NFT</a>
+            is and that the abbreviation of "Non-fungible token" no longer
+            confuses you, you are ready to delve deeper, which is necessary
+            before learning about ERC-1155.
+          </p>
+          <p>
+            To address these concerns, the ERC-1155 standard was created, which
+            can function as both a fungible and non-fungible token. The ERC-1155
+            standard allows you to mint and deploy an infinite number of tokens
+            under a single smart contract, reducing network congestion and gas
+            fees.
+          </p>
+          <p>
+            Here, we will define the ERC-1155 token standard and examine its
+            benefits and advantages.
+          </p>
+
+          <h2>What is ERC-1155 ?</h2>
+          <div class="blog-image py-3">
+            <img
+              class="img-fluid"
+              src="assets-new/images/blog/erc-inside1.jpg"
+              alt="ERC-1155-Works"
+              loading="lazy"
+              width="100%"
+              height="100%"
+            />
+          </div>
+          <p>
+            ERC stands for "Ethereum Request for Comments." It is a type of EIP
+            that focuses on Ethereum application standards, which include
+            tokens. Tokens are generally classified as either fungible or
+            non-fungible. Fungible tokens, like dollar bills or pesos, are
+            interchangeable. Non-fungible tokens, like a painting or a book, are
+            unique and non-transferable.
+          </p>
+          <p>
+            Even before ERC-1155, the two most common token standards for
+            fungible tokens were
+            <a [routerLink]="['/erc20-token-development']">ERC-20</a>
+            and ERC-721 for non-fungible tokens. They couldn't (and still can't)
+            be wrapped up in the same smart contract. Because of this
+            limitation, if someone wanted to transfer a USDC (ERC-20) and a
+            CryptoKitties NFT (ERC-721), they would have to execute multiple
+            transactions, which was inefficient and costly.
+          </p>
+          <p>
+            ERC-1155 addresses this issue by combining the two token standards.
+            The ERC-1155 token standard allows for the efficient transfer of
+            fungible and non-fungible tokens in a single transaction.
+          </p>
+
+          <h2>How does ERC-1155 work ?</h2>
+          <div class="blog-image py-3">
+            <img
+              class="img-fluid"
+              src="assets-new/images/blog/erc-inside2.jpg"
+              alt="How-ERC-1155-Works"
+            />
+          </div>
+          <p>
+            The initial motivation for ERC-1155 was to address issues
+            confronting blockchain game developers and players. There are
+            numerous examples of ERC-1155 being used in applications other than
+            gaming. Gaming, on the other hand, is a great reference use case for
+            understanding how ERC-1155 works.
+          </p>
+          <p>
+            Massively multiplayer online games (MMOs) contain tens of thousands
+            of items—armor, weapons, shields, skins, coins, badges, castles, and
+            so on—that players can collect and trade with one another. Some
+            items, such as coins, are fungible, while others, such as a sword,
+            are not. Each of these items is a token on the blockchain. Each item
+            necessitates its own smart contract. That's 100,000 smart contracts
+            in a game with 100,000 items!
+          </p>
+          <p>
+            Multiple items can be stored in a single smart contract using an
+            ERC-1155 token, and any number of items can be sent to one or more
+            recipients in a single transaction. This means you could send a
+            sword to one friend, a shield to another, and 100 gold coins to both
+            in a single transaction.
+          </p>
+
+          <h2>What makes ERC-1155 so unique?</h2>
+          <p>
+            ERC-1155 has a number of unique characteristics, including the
+            ability to transfer multiple token types at once, resulting in
+            increased efficiency and lower transaction costs.
+          </p>
+          <p class="pb-2">
+            <i class="bi bi-check-lg"></i> In contrast to ERC-20 and ERC-721,
+            which require a new smart contract for each type of token, it
+            supports an infinite number of tokens.
+          </p>
+          <p class="pb-2">
+            <i class="bi bi-check-lg"></i> It supports semi-fungible tokens in
+            addition to fungible and non-fungible tokens. Semi-fungible tokens
+            function similarly to general-admission concert tickets. They are
+            interchangeable and can be purchased for money prior to the show
+            (fungible). However, they lose their pre-show value and become
+            collectibles after the show (non-fungible).
+          </p>
+          <p class="pb-2">
+            <i class="bi bi-check-lg"></i> It has a safe transfer function,
+            unlike ERC-20 and ERC-1155, which allow tokens to be reclaimed if
+            they are sent to the wrong address.
+          </p>
+
+          <h2>Who uses ERC-1155?</h2>
+          <p>
+            <strong>Enjin </strong>- Enjin provides a variety of blockchain
+            products, many of which use ERC-1155.
+          </p>
+          <p>
+            <strong>Horizon</strong> - Horizon is a blockchain game company that
+            uses ERC-1155 in its Skyweaver game.
+          </p>
+          <p>
+            <strong>OpenSea</strong> - The ERC-1155 implementation of the NFT
+            marketplace allows multiple creators per smart contract, but only
+            one creator can mint more copies.
+          </p>
+          <p>
+            <strong>OpenZeppelin</strong> - The ERC-1155 standard is used by
+            OpenZeppelin's blockchain security products.
+          </p>
+
+          <h2>The Benefits of the ERC-1155 token standard</h2>
+          <h4>1. Token transfers in batches</h4>
+          <p>
+            As previously stated, the ERC-1155 token standard was the first to
+            successfully implement batch token transfers. Users can transact an
+            infinite number of tokens using a single
+            <a [routerLink]="['/bridge-smart-contract-development']"
+              >smart contract</a
+            >, reducing network congestion and saving money on gas fees.
+          </p>
+          <h4>2. Token with multiple functions</h4>
+          <p>
+            While ERC-20 is an excellent currency standard, and ERC-721 is the
+            definitive non-fungible standard, the two do not get along. ERC-1155
+            tokens, on the other hand, can function as both and even convert
+            from one to the other. This means that a single smart contract can
+            handle both types of tokens at the same time.
+          </p>
+          <h4>3. External metadata that is more efficient</h4>
+          <p>
+            The ERC-1155 standard also removes metadata from the contract and
+            replaces it with a JSON file. The metadata also removes some
+            obsolete and legacy fields, transferring much of the data from the
+            smart contract to JSON. While this only saves a small amount of data
+            per file, it saves a significant amount of congestion on the
+            <a [routerLink]="['']">blockchain</a> as a whole.
+          </p>
+          <h4>4. Integrated transaction validation</h4>
+          <p>
+            One of the issues with some legacy smart contracts is that there
+            will be uncertainty about telling what will happen if something goes
+            wrong. The Enjin team has ensured that no coin or asset will be lost
+            if an incorrect address is entered or there is a mistake elsewhere
+            in the contract with ERC-1155. The standard adds a built-in function
+            that validates transactions before executing them.
+          </p>
+
+          <h2>The Primary Advantages of ERC-1155</h2>
+          <p>
+            Now that you know what the ERC-1155 standards are, let's take a look
+            at some of the main advantages of ERC-1155:
+          </p>
+          <p class="pb-2">
+            <i class="bi bi-check-lg"></i> Allows the use of NFTs, fungible
+            tokens, and semi-fungible tokens.
+          </p>
+          <p class="pb-2">
+            <i class="bi bi-check-lg"></i> Increased level of security
+          </p>
+          <p class="pb-2"><i class="bi bi-check-lg"></i> Lower gas prices</p>
+          <p class="pb-2">
+            <i class="bi bi-check-lg"></i> Support for decentralized exchanges
+            (DEXs) has been improved.
+          </p>
+          <p class="pb-2"><i class="bi bi-check-lg"></i> Workload reduction</p>
+          <p class="pb-2">
+            <i class="bi bi-check-lg"></i> Metadata that changes over time
+          </p>
+
+          <h2>The Future of ERC-1155</h2>
+          <p>
+            Despite the fact that ERC-1155 has been around for four years, it is
+            still underutilized in comparison to its ERC-20 and ERC-721
+            counterparts. Given ERC-1155's versatility, this may come as a
+            surprise; it's possible that existing non-ERC-1155 projects will
+            migrate to the new standard in order to expand their functionality.
+          </p>
+          <p>
+            ERC-1155 will be used in Ethereum-based blockchain games in the
+            future. The advent of play-to-earn games may hasten this process.
+          </p>
+
+          <h2>In the end</h2>
+          <p>
+            The growth of fungible and non-fungible tokens on the Ethereum
+            blockchain has resulted in numerous protocols and standards for
+            each. ERC-20 and ERC-721 are the standards for fungible and
+            non-fungible tokens, respectively. It comes at a high cost, however,
+            because they are not interchangeable or compatible. As a result of
+            these issues, a new standard, ERC-1155, was developed.. However,
+            NFTs and other fungible tokens can now share a smart contract with
+            this new and more powerful standard in the meantime.
+          </p>
+        </div>
+        <app-social></app-social>
+      </div>
+      <div class="col-lg-4 col-md-12 stick-blog">
+        <app-blog-sidebar></app-blog-sidebar>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+        <app-comments></app-comments>
+      </div>
+    </div>
+  </div>
+</section>
+<app-blog></app-blog>
+<app-contactform></app-contactform>

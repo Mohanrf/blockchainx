@@ -1,0 +1,251 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+
+.caption p {
+  padding-right: 30px;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+.scroll-section a {
+  cursor: pointer;
+}
+
+.erc-about-content {
+  padding-top: 40px;
+}
+
+.erc-about-picture img {
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.types-of-erc {
+  position: relative;
+  padding-bottom: 80px;
+}
+
+.types-of-token-detail {
+  padding-top: 80px;
+}
+
+.our-process-erc {
+  position: relative;
+}
+
+#erc-link {
+  margin-top: -50px;
+}
+
+.trc-benefits {
+  padding-top: 80px;
+}
+.erc-processing {
+  padding-top: 40px;
+}
+.techstack_img {
+  text-align: center;
+}
+.techstack_img img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+  opacity: 0.3;
+  margin-bottom: 25px;
+}
+.techstack_img > img:hover {
+  opacity: 1;
+}
+.tron-token-images {
+  padding-top: 70px;
+}
+.list-one,
+.list-two {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.step-two-stak {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-one img,
+.list-one-alt img {
+  padding-right: 50px;
+  padding-top: 70px;
+}
+.business-stak > .container {
+  border: none;
+}
+.common-sub-heading-alt {
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .types-of-erc::before {
+    display: none;
+  }
+
+  .develop-erc {
+    padding: 100px 0px 100px 0px;
+  }
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+  .business-stak {
+    padding-top: 0px;
+  }
+  .metaverse_heading h3 {
+    padding-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  #erc-link {
+    margin-top: unset;
+  }
+  .common-sub-heading h4::before {
+    display: none;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+  .develop-erc img {
+    margin: auto;
+    width: 50%;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+  .about-content {
+    text-align: center;
+  }
+  .virtual_process {
+    padding-left: unset;
+    padding-right: unset;
+  }
+  .types-of-erc {
+    padding-bottom: unset;
+  }
+  #trc-about-alt p {
+    padding-bottom: 30px;
+  }
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+  .why-nft-read-more {
+    padding-left: 0px;
+    text-align: left;
+  }
+  .erc-processing {
+    padding-top: 15px;
+    padding-bottom: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .erc-about-content {
+    padding-top: unset;
+  }
+  .erc-about-picture img {
+    padding-bottom: 15px;
+  }
+  .erc-about-picture {
+    padding-top: 30px;
+  }
+  .erc-20-head,
+  .erc-20-head-alt {
+    font-size: 20px;
+  }
+  .erc-about-picture img {
+    width: 125px;
+    height: 125px;
+    object-fit: scale-down;
+  }
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 15px;
+    padding-top: 30px;
+  }
+  .main-sub-heading {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+
+  .erc-processing {
+    padding-top: 10px;
+    padding-bottom: 30px;
+  }
+  .product-feature-heading {
+    padding-bottom: 0;
+  }
+  .produt-feature-detail {
+    text-align: center;
+  }
+  .produt-feature-detail p {
+    text-align: center;
+  }
+  .erc-about-content {
+    padding-bottom: unset;
+  }
+  .tron-token-images {
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-sub-heading {
+    padding-left: unset;
+  }
+  .our-process-erc .main-sub-heading {
+    padding-left: 10px;
+  }
+  #trc-about-alt p:last-child {
+    padding-bottom: unset;
+  }
+  .pt-4 {
+    padding-top: unset !important;
+  }
+
+  .types-erc-detail {
+    text-align: center !important;
+  }
+
+  .virtual_process {
+    padding-left: unset;
+    padding-right: unset;
+  }
+
+  .process-image {
+    padding-bottom: unset;
+  }
+  .light-background {
+    margin: 0px 20px;
+  }
+}
+@media (max-width: 425px) {
+  .erc-link {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .erc-about-content {
+    padding-bottom: unset;
+  }
+  .produt-feature-detail {
+    padding-top: 0px;
+  }
+}

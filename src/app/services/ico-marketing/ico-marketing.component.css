@@ -1,0 +1,146 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+.caption p {
+  padding-right: 30px;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+.scroll-section a {
+  cursor: pointer;
+}
+.main-sub-heading {
+  text-align: left;
+}
+.metaverse_heading p {
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+}
+.erc-processing {
+  padding-top: 65px;
+}
+.bep-work-section {
+  text-align: center;
+}
+ 
+.ico-para p{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+/* media-screen */
+@media (max-width: 1199px) {
+  .types-of-erc::before {
+    display: none;
+  }
+  .types-of-erc > .container {
+    border: unset;
+  }
+  .types-of-token-detail {
+    padding-top: 60px;
+  }
+  .acc-head {
+    padding-bottom: 60px;
+  }
+  .ico-para p{
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .main-sub-heading,
+  .common-sub-heading h4 {
+    text-align: center;
+  }
+  .common-sub-heading h4::before {
+    display: none;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+  .types-of-token-detail {
+    padding-bottom: 25px;
+  }
+  .ico-market {
+    flex-direction: column-reverse;
+  }
+  .erc-processing {
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .bep-work-section {
+    padding-bottom: 30px;
+  }
+  .acc-head {
+    padding-bottom: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .erc-about-picture img {
+    padding-bottom: 15px;
+  }
+  .erc-20-head,
+  .erc-20-head-alt {
+    font-size: 20px;
+  }
+  .types-erc-detail {
+    text-align: center;
+  }
+  .types-erc-detail p {
+    text-align: center;
+  }
+  .types-of-token-detail {
+    padding-bottom: 25px;
+    padding-top: 50px;
+  }
+  .ico-para p{
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-sub-heading {
+    padding-left: unset;
+  }
+  .types-erc-detail {
+    text-align: center !important;
+  }
+  .banner-right-section img {
+    padding-top: 0px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 25px;
+    padding-top: 60px;
+  }
+  .erc-processing {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 425px) {
+  .types-of-token-detail {
+    padding-bottom: 0px;
+  }
+  .scroll-section {
+    padding-bottom: 45px;
+  }
+  .ico-para p {
+    font-size: 15px;
+  }
+}
+
+.acc-head {
+  padding-top: unset;
+}

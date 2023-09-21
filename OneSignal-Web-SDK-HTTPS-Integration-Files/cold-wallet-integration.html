@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang=zxx class=js>
+
+<head>
+    <meta charset=utf-8>
+    <meta name=author content=BlockchainX>
+    <meta name=ROBOTS CONTENT="INDEX, FOLLOW">
+    <meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name=description content="Secured way to integrate Cold Wallet for all kinds of Cryptocurrency Exchange Software with Ready-made cold wallet integration system.">
+    <meta name=keywords content="Cold wallet development, Cold wallet integration with web apps">
+
+    <meta property="og:title" content="Cold Wallet Integration System for all kinds of Exchanges - BlockchainX">
+    <meta property="og:site_name" content="BlockchainX">
+    <meta property="og:url" content="https://www.blockchainx.tech/cold-wallet-integration">
+    <meta property="og:description" content="Secured way to integrate Cold Wallet for all kinds of Cryptocurrency Exchange Software with Ready-made cold wallet integration system.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://blockchainx.tech/images/cold-wallet/cold-wallet.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@BlockchainX">
+    <meta name="twitter:title" content="Cold Wallet Integration System for all kinds of Exchanges - BlockchainX">
+    <meta name="twitter:description" content="Secured way to integrate Cold Wallet for all kinds of Cryptocurrency Exchange Software with Ready-made cold wallet integration system.">
+
+    <meta name="p:domain_verify" content="c9c6967bd72eb411d6d4d314cefa6bc9" />
+
+    <link rel="shortcut icon" href=images/fav/fav1.png>
+    <title>Cold Wallet Integration System for all kinds of Exchanges - BlockchainX</title>
+
+
+
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-MS7NKJP');
+    </script>
+    <!-- End Google Tag Manager -->
+
+
+    <link rel=stylesheet href="assets/css/vendor.bundle.css?ver=142">
+    <link rel=stylesheet href="assets/css/style.css?ver=142">
+    <link rel=stylesheet href="assets/css/theme-blue.css?ver=142">
+    <link rel=stylesheet href=assets/css/ico-developemt.css>
+    <link rel=stylesheet href=assets/css/custom.css>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.10.0/css/lightbox.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js">
+    <link rel="canonical" href="https://www.blockchainx.tech/cold-wallet-integration" />
+</head>
+<style>
+    h1.animated.banner-text.fadeInUp {
+        color: #fff;
+    }
+    
+    .section-ptb {
+        padding-top: 100px;
+        padding-bottom: 80px;
+    }
+    
+    .pb-80 {
+        padding-bottom: 80px;
+    }
+    
+    .h-20 {
+        height: 20rem;
+    }
+    
+    .feature-s12 {
+        display: flex !important;
+    }
+    
+    .feature-text.feature-text-s2 {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 2rem;
+    }
+    
+    .mtb-auto {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+    
+    .feature.feature-s5.card {
+        height: 15rem;
+    }
+    
+    .pt-0 {
+        padding-top: 0px !important;
+    }
+    
+    body {
+        margin-bottom: -81px !important;
+    }
+    
+    .card {
+        background: #fff;
+        border: 0;
+        box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.07);
+    }
+    
+    .pt-30 {
+        padding-top: 30px;
+    }
+    
+    @media only screen and (min-width: 575px) {
+        .theme-salvia h4 {
+            font-size: 1.2em !important;
+            font-weight: 500 !important;
+        }
+    }
+    
+    @media (min-width: 992px) {
+        .header-txt {
+            margin: 5em auto 0 14em !important;
+        }
+        .feature.card {
+            width: 100%;
+            padding: 26px;
+            height: 21rem;
+        }
+        .feature.feature-inline {
+            display: flex;
+        }
+        .feature-icon.feature-icon-sm.feature-icon-s6 {
+            margin-bottom: 0px !important;
+        }
+    }
+    
+    @media (min-width: 300px) and (max-width: 990px) {
+        .contactForm {
+            width: 330px !important;
+        }
+        .item {
+            margin-bottom: 1rem;
+        }
+        .contactForm input[type="text"],
+        .contactForm textarea {
+            margin-left: 1em;
+            width: 100% !important;
+            line-height: 20px;
+            font-size: .93em;
+            padding: 13px 20px;
+            background: 0 0;
+            border-radius: 6px;
+            border: 2px solid rgba(34, 59, 85, .15);
+        }
+        .feature-text {
+            padding-bottom: 12px;
+            padding-top: 12px;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        ul,
+        ol,
+        table {
+            margin: 0 0 8px;
+        }
+    }
+</style>
+
+<body class="theme-salvia io-salvia" data-spy=scroll data-target=#mainnav data-offset=80>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MS7NKJP"
+        height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header class="site-header is-sticky">
+        <div id=particles-js class="particles-container particles-js"></div>
+        <div include-html="header"></div>
+        <div id=header class="banner banner-salvia">
+            <div class=container>
+                <div class=banner-content>
+                    <div class="row align-items-center justify-content-center justify-content-lg-between">
+                        <div class=banner-txt>
+                            <div class=header-txt>
+                                <h1 class="animated banner-text" data-animate=fadeInUp data-delay=1.25>Crypto Cold Wallet Integration</h1>
+                                <p class="lead animated" data-animate=fadeInUp data-delay=1.35>Always keep your assets safe with an offline crypto cold storage wallet</p>
+                                <ul class="btns animated" data-animate=fadeInUp data-delay=1.45>
+                                    <li>
+                                        <a href="contact" class="btn btn-outline white">Talk to our ICO experts</a>
+                                    </li>
+                                    <li>
+                                        <a href="ico-marketing-agency" class="btn btn-outline white">ICO Marketing services </a>
+                                    </li>
+                                </ul>
+                                <div class="gaps size-2x"></div>
+                                <h6 class="animated fadeInUp" data-animate=fadeInUp data-delay=1.55 style=color:#dededd;visibility:visible;animation-delay:1.55s>Join our community</h6>
+                                <ul class=social-link-exp>
+                                    <li class=animated data-animate=fadeInUp data-delay=1.65>
+                                        <a href="https://t.me/joinchat/Nh-Hn0vrHsdYEGKDOkveIg" target="_blank">
+                                            <em class="fas fa-paper-plane"></em>
+                                           
+                                        </a>
+                                    </li>
+                                    <li class=animated data-animate=fadeInUp data-delay=1.7>
+                                        <a href="https://www.facebook.com/blockchainxtech/" target="_blank">
+                                            <em class="fab fa-facebook-f"></em>
+                                        </a>
+                                    </li>
+                                    <li class=animated data-animate=fadeInUp data-delay=1.75>
+                                        <a href=https://twitter.com/Blockchainxtech target="_blank">
+                                            <em class="fab fa-twitter"></em>
+                                        </a>
+                                    </li>
+                                    <li class=animated data-animate=fadeInUp data-delay=1.8>
+                                        <a href="https://www.instagram.com/blockchainxtech/" target="_blank">
+                                            <em class="fab fa-instagram"></em>
+                                        </a>
+                                    </li>
+                                    <li class=animated data-animate=fadeInUp data-delay=1.85>
+                                        <a href="https://github.com/Blockchainxtech" target="_blank">
+                                            <em class="fab fa-github"></em>
+                                        </a>
+                                    </li>
+                                    <li class=animated data-animate=fadeInUp data-delay=1.9>
+                                        <a href="https://www.linkedin.com/company/blockchainx/" target="_blank">
+                                            <em class="fab fa-linkedin-in"></em>
+                                        </a>
+                                    </li>
+                                    <li class=animated data-animate=fadeInUp data-delay=1.9>
+                                        <a href="https://in.pinterest.com/blockchainxtech/" target="_blank">
+                                            <em class="fab fa-pinterest-p"></em>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="section section-ptb section-l bg-white">
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-features-s2">
+                <div class="row align-items-center gutter-vr-30px">
+                    <div class="col-lg-5">
+                        <div class=" py-4">
+                            <picture>
+                                <source srcset=images/cold-wallet/banner.webp type=image/webp>
+                                <source srcset=images/cold-wallet/banner.png type=image/png>
+                                <img class=img-responsive src=images/cold-wallet/banner.png alt=Cold-wallet>
+                            </picture>
+                        </div>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-lg-7">
+                        <div class="feature">
+                            <h4 class="title-xl-2 title-semibold pdb-s">What is Cold Storage Wallet?</h4>
+                            <div class="feature-text feature-text-s1">
+                                <p>A cryptocurrency cold storage wallet is basically an offline crypto token storage system. Crypto wallet addition to existing web applications has several advantages along the lines of safety, convenience, and usability.
+                                    And safety is what gives this little physical system the ultimate edge. Typically, cryptocurrency exchanges store tokens online, on a system that connects to the internet. Naturally, anything that connects to the internet
+                                    leaves room for cyber-attacks. Cold wallet integration with web apps of exchanges solves this problem completely because a cold wallet does not connect to the internet, and therefore, is safe from attacks. Additionally,
+                                    cold wallets are encrypted, keeping your digital assets completely safe.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="feature">
+                            <h4 class="title-xl-2 title-semibold pdb-s">Exist offline without connecting to the internet</h4>
+                            <div class="feature-text feature-text-s1">
+                                <p>The internet is a free space for people to connect, which is also what makes it dangerous. Plenty of hackers crawl all over the cyberspace, and since the crypto scene has been gaining momentum, they have been trying to
+                                    target these platforms too. Digital defenses are effective, but not unbreakable. A crypto cold wallet integration solves this by keeping crypto tokens on an offline and encrypted physical wallet.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- .col -->
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .block @e -->
+        </div>
+    </section>
+
+    <section class="section section-ptb bg-light">
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-features-s2">
+                <div class="row align-items-center">
+                    <div class="col-md-10 offset-md-1 text-center ">
+                        <div class="section-head">
+                            <h2 class="title">Cold Wallet vs Digital Wallet</h2>
+                            <p>Digital wallets or “hot wallets” reside online and connect to the internet, which always leaves the possibility of hackers attacking the system and stealing all your assets. A cold wallet, on the other hand, resides offline,
+                                does not stay connected to the internet, and is reinforced with encryption.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- .block @e -->
+        </div>
+    </section>
+
+    <section class="section section-ptb section-post bg-white">
+        <div class=container>
+            <div class="col-lg-10 offset-md-1">
+                <div class="section-head">
+                    <h2 class="title text-center">Trending towards offline wallets</h2>
+                    <p class="animated text-center" data-animate=fadeInUp >Owing to the greater level of security that cryptocurrency cold wallets provide, the market seems to be shifting towards these physical asset storage systems. So, let's look a little deeper into what you need to know before beginning
+                        cold wallet development for your business.
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="nk-block nk-block-feature">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-mb-10">
+                            <div class="feature feature-inline card card-s3 flex-wrap flex-sm-nowrap animated fadeInUp" data-delay="0.2" style="visibility: visible; animation-delay: 0.2s;">
+                                <div class="feature-icon feature-icon-lg-s3 mt-0">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/trending/usb-drives.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/trending/usb-drives.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/trending/usb-drives.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text">
+                                    <h5 class="title title-md">Cryptographically secure USB drives</h5>
+                                    <p>Through cold wallet development, you can now store your cryptocurrency on specially designed, cryptographically secure USB drives. These drives connect seamlessly with your platform’s web applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-mb-10">
+                            <div class="feature feature-inline card card-s3 flex-wrap flex-sm-nowrap animated fadeInUp" data-delay="0.3" style="visibility: visible; animation-delay: 0.3s;">
+                                <div class="feature-icon feature-icon-lg-s3 mt-0">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/trending/ui.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/trending/ui.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/trending/ui.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text">
+                                    <h5 class="title title-md">Intuitive front-end UI for interacting with Cold wallet</h5>
+                                    <p>Our cold wallet development team has carefully put together an intuitive front-end UI that will connect and work harmoniously with physical cold wallets. It’s a completely plug-n-play experience for your users.
+                                    </p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6 col-mb-10">
+                            <div class="feature feature-inline card card-s3 flex-wrap flex-sm-nowrap animated fadeInUp" data-delay="0.2" style="visibility: visible; animation-delay: 0.2s;">
+                                <div class="feature-icon feature-icon-lg-s3 mt-0">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/trending/erc20.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/trending/erc20.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/trending/erc20.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text">
+                                    <h5 class="title title-md">Supports all popular cryptocurrencies including ERC20 tokens</h5>
+                                    <p>Our crypto cold wallet integration solution supports all popular cryptocurrencies, including the most commonly used ERC20 token standard of the Ethereum blockchain. Get everything you need in a single package.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-mb-10">
+                            <div class="feature feature-inline card card-s3 flex-wrap flex-sm-nowrap animated fadeInUp" data-delay="0.3" style="visibility: visible; animation-delay: 0.3s;">
+                                <div class="feature-icon feature-icon-lg-s3 mt-0">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/trending/key.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/trending/key.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/trending/key.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text">
+                                    <h5 class="title title-md">Secure Multisig key security</h5>
+                                    <p>You can enable Multisignature security for your wallet with crypto cold wallet integration, which means that it requires multiple keys to authorize a transaction. The perfect solution for business transactions.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="row justify-content-center">
+                        <div class="col-lg-6 col-mb-10">
+                            <div class="feature feature-inline card card-s3 flex-wrap flex-sm-nowrap animated fadeInUp" data-delay="0.2" style="visibility: visible; animation-delay: 0.2s;">
+                                <div class="feature-icon feature-icon-lg-s3 mt-0">
+                                    <img src="https://demo.themenio.com/ico/images/icons/icon-t-alt.png" alt="icon">
+                                </div>
+                                <div class="feature-text">
+                                    <h5 class="title title-md">Instant notification alerts</h5>
+                                    <p>Stay up-to-date on everything that happens on your campaign with our white label crowdfunding software platform. Get all the notifications instantly on your mobile app and as email alerts, on BlockchainX’s crowdfunding
+                                        software platform.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-mb-10">
+
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section section-ptb bg-light">
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-features-s2">
+                <div class="row align-items-center">
+                    <div class="col-md-10 offset-md-1 text-center ">
+                        <div class="section-head">
+                            <h2 class="title">Crypto Cold Wallet Development</h2>
+                            <p>Our team for cold wallet development consists of crypto and software maestros who have dedicated their lives to providing businesses with the most innovative blockchain-based software solutions. The process of crypto cold wallet
+                                addition to existing web applications is totally seamless, and does not involve any sort of hassle.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- .block @e -->
+        </div>
+    </section>
+
+    <section class="section section-ptb section-l bg-white">
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-text-grp mgb-m30">
+                <div class="row">
+                    <div class="col-lg-10 offset-md-1">
+                        <div class="section-head">
+                            <h2 class="title">Cold Wallet integration with web application</h2>
+                            <p class="animated text-center" data-animate=fadeInUp >Our solution connects seamlessly with popular cold wallets in the market and we can integrate your cold wallets with our web applications easily. A completely fool-proof solution for storing your valuable digital assets.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="feature feature-s5 card">
+                            <h4 class="title title-md">Transaction history</h4>
+                            <p>Our crypto cold wallet integration system acts as your personal accountant and provides you with detailed transaction history, whenever you connect your cold wallet. Know your spending and manage your finances easily.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature feature-s5 card">
+                            <h4 class="title title-md">Transaction initiation</h4>
+                            <p>Make the most of crypto cold wallet integration and initiate transactions easily. You can also automate recurring transactions so that you don’t worry about pending payments. Perfect for modern businesses.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="feature feature-s5 card">
+                            <h4 class="title title-md">Online Balance Check</h4>
+                            <p>Keeping an eye on your wallet is always good especially if you make several transactions a day. Check your current balance online easily by logging into your account and clicking on the balance check feature.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- .row -->
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="feature feature-s5 card">
+                            <h4 class="title title-md">Offline Balance Check</h4>
+                            <p>Since a cold wallet is offline, you have to always wait to connect to the internet for checking your balance, right? Wrong! You can easily connect your wallet to the application and check your balance, even if you are offline.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- <div class="feature feature-s5 card">
+                            <h4 class="title title-md">Multiple Currencies</h4>
+                            <p>Huge fund requirements need crowdfunding software that can push your campaigns to global audiences. You get exactly that with BlockchainX’s crowdfunding software platform, with multi-currency support.
+                            </p>
+                        </div> -->
+                    </div>
+                    <div class="col-lg-4">
+                        <!-- <div class="feature feature-s5 card">
+                            <h4 class="title title-md">Media gallery</h4>
+                            <p>Networking is a big part of any successful campaign. Let your users post relevant news and media about their campaigns using our crowdfunding software platform, with a dedicated media gallery section.</p>
+                        </div> -->
+                    </div>
+                </div>
+                <!-- .row -->
+
+            </div>
+            <!-- .block @e -->
+        </div>
+    </section>
+
+    <section class="section section-ptb bg-light">
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-features-s2">
+                <div class="row align-items-center">
+                    <div class="col-md-10 offset-md-1 text-center ">
+                        <div class="section-head">
+                            <h2 class="title">We support Trezor and <br>Ledger cold wallet</h2>
+                            <p>Our crypto cold wallet integration solution is perfect for businesses big and small, supporting both Trezor and Ledger Cold Wallets. We constantly update our systems according to the latest technology, so you always get the
+                                latest artillery under your arsenal.
+                            </p>
+                        </div>
+                        <div class="mt-4">
+                            <img src="images/cold-wallet/trezor.png">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- .block @e -->
+        </div>
+    </section>
+
+    <section class="section section-ptb bg-white">
+        <div class="container">
+            <!-- Block @s -->
+            <div class="nk-block nk-block-features-s2">
+                <div class="row align-items-center justify-content-between gutter-vr-30px">
+                    <div class="col-md-10 offset-md-1 text-center ">
+                        <div class="section-head">
+                            <h2 class="title">Advantages of <br>Crypto Cold Wallet Integration</h2>
+                            <p>Cold wallet development offers many benefits and these benefits suit both regular traders and businesses. Let’s take a look at how a cold wallet can help you out.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class=" gfx-auto py-4">
+                            <picture>
+                                <source srcset=images/cold-wallet/advantages/Advantage.webp type=image/webp>
+                                <source srcset=images/cold-wallet/advantages/Advantage.png type=image/png>
+                                <img class=img-responsive src=images/cold-wallet/advantages/Advantage.png alt=Cold-wallet>
+                            </picture>
+                        </div>
+                    </div>
+                    <!-- .col -->
+                    <div class="col-lg-7">
+                        <div class="features-list gutter-vr-20px d-flex flex-wrap">
+                            <div class="feature feature-inline feature-s3 feature-s3-alt">
+                                <div class="feature-icon feature-icon-sm feature-icon-s6">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/advantages/Safety.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/advantages/Safety.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/advantages/safety.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text feature-text-s1">
+                                    <h5 class="title title-md">Safety</h5>
+                                    <p>The major advantage of crypto cold wallet integration is the high level of safety it provides. Your tokens are stored on a separate device and don’t need to connect to the internet to function, eliminating threats.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature feature-inline feature-s3 feature-s3-alt">
+                                <div class="feature-icon feature-icon-sm feature-icon-s6">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/advantages/Set-forget.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/advantages/Set-forget.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/advantages/Set-forget.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text feature-text-s1">
+                                    <h5 class="title title-md">Set and forget</h5>
+                                    <p>In a set and forget trading system, you initially set up everything including your profit targets and stop-loss, and then forget it to let the market go on its course. The system automatically initiates functions based
+                                        on your settings.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature feature-inline feature-s3 feature-s3-alt">
+                                <div class="feature-icon feature-icon-sm feature-icon-s6">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/advantages/backup-strategy.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/advantages/backup-strategy.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/advantages/backup-strategy.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text feature-text-s1">
+                                    <h5 class="title title-md">Good Backup strategy</h5>
+                                    <p>Cold wallets are a great backup strategy for your cryptocurrency tokens because unlike in traditional crypto trading where everything is stored online, here, you store your tokens physically on a device and away from
+                                        hackers.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="feature feature-inline feature-s3 feature-s3-alt">
+                                <div class="feature-icon feature-icon-sm feature-icon-s6">
+                                    <picture>
+                                        <source srcset=images/cold-wallet/advantages/effective.webp type=image/webp>
+                                        <source srcset=images/cold-wallet/advantages/effective.png type=image/png>
+                                        <img class=img-responsive src=images/cold-wallet/advantages/effective.png alt=Cold-wallet>
+                                    </picture>
+                                </div>
+                                <div class="feature-text feature-text-s1">
+                                    <h5 class="title title-md">Effective for mainstream traders and investors
+                                    </h5>
+                                    <p>This physical-asset-keeping aspect of cold wallets makes it perfect for mainstream traders and investors who are used to trading in Fiat currencies. Above all, the system helps establish trust with your investors.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .col -->
+                </div>
+                <!-- .row -->
+            </div>
+            <!-- .block @e -->
+        </div>
+    </section>
+
+
+    <section class="section section-ptb bg-light">
+        <div class=container>
+            <div class="section-headd text-center wide-auto">
+                <h2 class="title title-lg title-regular">Crowdfunding Campaign Screens</h2>
+
+            </div>
+            <div class="nk-block nk-block-features text-center mgb-m30">
+                <div class="row mb-2">
+                    <div class="container container-wrap">
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="images/cold-wallet/screens/1.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens//1.png" alt="Cold-wallet">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="images/cold-wallet/screens/2.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens/2.png" alt="Cold-wallet">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="images/cold-wallet/screens/3.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens/3.png" alt="Cold-wallet">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="images/cold-wallet/screens/4.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens/4.png" alt="Cold-wallet">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="container container-wrap">
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="images/cold-wallet/screens/5.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens/5.png" alt="Cold-wallet">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="item">
+                                <a href="images/cold-wallet/screens/6.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens/6.png" alt="Cold-wallet">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <!-- <div class="item">
+                                <a href="images/cold-wallet/screens/7.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens/7.png" alt="Cold-wallet">
+                                </a>
+                            </div> -->
+                        </div>
+                        <div class="col-md-3">
+                            <!-- <div class="item">
+                                <a href="images/cold-wallet/screens/8.png" data-fancybox="gallery">
+                                    <img class="lg" src="images/cold-wallet/screens/8.png" alt="Cold-wallet">
+                                </a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="carousel-wrap">
+                  <div class="owl-carousel">
+                    <div class="item">
+                        <img class=img-responsive src=images/cold-wallet/screens/1.png alt=block-explorer>
+                    </div>
+                    <div class="item">
+                        <img class=img-responsive src=images/cold-wallet/screens/2.png alt=block-explorer>
+                    </div>
+                    <div class="item">
+                        <img class=img-responsive src=images/crowdfund-script/crowdfund-campaign/3.png alt=block-explorer>
+                    </div>
+                    <div class="item">
+                        <img class=img-responsive src=images/crowdfund-script/crowdfund-campaign/4.png alt=block-explorer>
+                    </div>
+                    <div class="item">
+                        <img class=img-responsive src=images/crowdfund-script/crowdfund-campaign/5.png alt=block-explorer>
+                    </div>
+                    <div class="item">
+                       <img class=img-responsive src=images/crowdfund-script/crowdfund-campaign/6.png alt=block-explorer>
+                    </div>   
+                    <div class="item">
+                       <img class=img-responsive src=images/crowdfund-script/crowdfund-campaign/7.png alt=block-explorer>
+                    </div>   
+                    <div class="item">
+                       <img class=img-responsive src=images/crowdfund-script/crowdfund-campaign/8.png alt=block-explorer>
+                    </div>                       
+                  </div>
+                </div> -->
+            </div>
+
+        </div>
+    </section>
+
+    <div class="section section-pad overlay-shape section-bg-salvia">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-6 col-md-8">
+                    <div class="section-head">
+                        <h2 class="section-title-s8 animated fadeInUp"  style="visibility: visible; animation-delay: 0.1s;">Our Products</h2>
+                        <p class="lead animated fadeInUp"  style="visibility: visible; animation-delay: 0.2s;">Check out our highly user-friendly and feature-packed Dashboards for Users</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-lg-5 res-m-btm animated fadeInUp"  style="visibility: visible; animation-delay: 0.3s;">
+                    <!-- <a class="product-box"> -->
+                    <!-- <h5 class="product-name">USER DASHDOARD</h5> -->
+                    <div class="product-img">
+                        <img src="images/cold-wallet/products/user.png" alt="Cold-wallet">
+                    </div>
+                    <!-- </a> -->
+                    <div class="product-description pt-30 text-center">
+                        <!--  <p class="text-white">Username - <a class="mail">user@pennyauction.com</a><br>
+                        Password - 12345678</p> -->
+                        <a target="_blank" href="http://68.183.149.9/coldwallet/ " class="btn btn-outline btn-grad on-bg-theme-dark btn-auto text-white mt-30 btn-sm">View Demo</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Start Section -->
+    <div class="section section-ptb section-bg bg-light " id="contact">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-4 res-m-bttm">
+                    <div class="section-head-s6">
+                        <h2 class="section-title-s8 animated" >Get In Touch</h2>
+                        <p class="lead animated" >Any question? Reach out to us and we’ll get back to you shortly.</p>
+                    </div>
+                    <ul class="contact-info-alt">
+
+                        <li class="animated" >
+                            <em class="fa fa-envelope"></em>
+                            <span>contact@blockchainx.tech</span>
+                        </li>
+                        <li class=animated data-animate=fadeInUp data-delay=.5>
+                            <em class="fab fa-skype"></em>
+                            <span>Join us on Skype</span>
+                        </li>
+                        <li class="animated" >
+                            <em class="fa fa-paper-plane"></em>
+                            <span>Join us on Telegram</span>
+                        </li>
+                    </ul>
+                    <p>Follow us on</p>
+                    <ul class="social-link-exp contactPage">
+                        <li><a href="https://www.facebook.com/blockchainxtech/"><em class="fab fa-facebook-f"></em></a></li>
+                        <li><a href="https://twitter.com/Blockchainxtech"><em class="fab fa-twitter"></em></a></li>
+                        <li><a href="https://www.instagram.com/blockchainxtech/"><em class="fab fa-instagram"></em></a></li>
+                        <li><a href="https://github.com/Blockchainxtech"><em class="fab fa-github"></em></a></li>
+                        <li><a href="https://in.pinterest.com/blockchainxtech/"><em class="fab fa-pinterest-p"></em></a></li>
+                        <li><a href="https://www.linkedin.com/company/blockchainx/"><em class="fab fa-linkedin-in"></em></a></li>
+                        <li><a href="https://www.youtube.com/channel/UCUYbLRK5Sc6BjErGvyyT7Lg"><em class="fab fa-youtube"></em></a></li>
+                        <li><a href="https://t.me/joinchat/Nh-Hn0vrHsdYEGKDOkveIg"><em class="fas fa-paper-plane"></em></a></li>
+                    </ul>
+                </div>
+                <!-- .col -->
+                <div class="col-lg-7">
+                    <div id="link"></div>
+                </div>
+                <!-- .col -->
+            </div>
+        </div>
+    </div>
+    <div id="preloader">
+        <div id="loader"></div>
+        <div class="loader-section loader-top"></div>
+        <div class="loader-section loader-bottom"></div>
+    </div>
+    <!-- End Section -->
+    <div include-html="footer"></div>
+    <script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js></script>
+    <script src=https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.js"></script>
+    <script src="assets/js/jquery.bundle.js?ver=142"></script>
+    <script src="assets/js/script.js?ver=142"></script>
+    <script>
+        $(function() {
+            $("#link").load("contact.php");
+        });
+        window.addEventListener('load', function() {
+            $("#preloader").hide();
+        });
+
+        function includeHTML() {
+            var t, e, n, i, s;
+            for (t = document.getElementsByTagName("*"),
+                e = 0; e < t.length; e++)
+                if (n = t[e],
+                    i = n.getAttribute("include-html"))
+                    return s = new XMLHttpRequest,
+                        s.onreadystatechange = function() {
+                            4 == this.readyState && (200 == this.status && (n.innerHTML = this.responseText),
+                                404 == this.status && (n.innerHTML = "Page not found."),
+                                n.removeAttribute("include-html"),
+                                includeHTML())
+                        },
+                        s.open("GET", i, !0),
+                        void s.send()
+        }
+    </script>
+    <script>
+        includeHTML()
+    </script>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en'
+            }, 'google_translate_element');
+        }
+    </script>
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+</body>
+
+</html>

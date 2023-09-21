@@ -1,0 +1,126 @@
+.banner-right-section img {
+    padding-top: 180px;
+}
+.scroll-section{
+    padding-bottom: 60px;
+}
+.hash-feature {
+    padding-top: 25px;
+}
+.our-solid-common{
+    padding-bottom: 20px;
+}
+
+.casestudy_head h3 {
+    padding: 0 0 10px 0;
+}
+.case_studies_hr {
+    width: 100% !important;
+    opacity: 0.5;
+    border: 0.75px solid #d9d9d9 !important;
+    margin: 45px 0px 45px 0px !important;
+}
+
+
+@media (max-width: 1199px){
+  
+}
+
+@media (max-width: 991px) {
+    .banner-right-section img {
+        padding-top: 0px;
+    }
+    .erc-about-content {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    .metaverse_heading h3 {
+        text-align: center;
+    }
+    .hash-feature {
+        padding-top: 0px;
+        padding-bottom: 50px;
+    }
+    .our-solid-common {
+        padding-bottom: 0px;
+    }
+    .erc-processing {
+        padding-bottom: 50px;
+    }
+    .bep-work-section {
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+    
+}
+
+@media (max-width: 767px) {
+    .banner-right-section img {
+        padding-bottom: 25px;
+    }
+    .erc-about-content {
+        padding-bottom: 0px;
+    }
+    .hash-feature {
+        padding-bottom: 20px;
+    }
+    .process-head {
+        padding-top: 0.5rem!important;
+    }
+    .erc-about-picture img {
+        width: 100px;
+        height: auto;
+    }
+ 
+}
+
+@media (max-width: 576px) {
+    .banner-right-section img {
+        padding-bottom: 15px;
+    }
+    .hash-feature-one{
+        margin-bottom: 2rem !important;
+    }
+    .hash-feature {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .erc-processing {
+        padding-top: 35px;
+        padding-bottom: 35px;
+    }
+    .erc-about-picture {
+        padding-top: 25px;
+    }
+    .process-head {
+        padding-top: 0rem!important;
+    }
+    .casestudy_head h3 {
+        padding: 0 0 0px 0;
+    }
+    
+}
+
+@media (max-width: 425px) {
+ 
+   .scroll-section {
+        padding-bottom: 45px;
+    }
+    .erc-about-picture {
+        padding-top: 20px;
+    }
+    .hash-feature-one {
+        margin-bottom: 2rem !important;
+    }
+    .banner-right-section img {
+        padding-bottom: 0px;
+    }
+    .erc-processing {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .casestudy_para {
+        padding-top: 0px;
+    }
+
+}

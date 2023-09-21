@@ -1,0 +1,142 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+.scroll-section {
+  padding-bottom: 60px;
+}
+
+/* Development Services starts  */
+.erc-processing {
+  justify-content: center;
+}
+
+/* business-tech-stack */
+.techstack_img img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+
+  margin-bottom: 40px;
+}
+.techstack_img > img:hover {
+  opacity: 1;
+}
+.app-dapps-common {
+  padding-top: 65px;
+}
+
+/* Tech Stak Update */
+.list-one img,
+.list-one-alt img {
+  padding-right: 0px;
+  padding-top: 50px;
+}
+.business-stak-list-section {
+  padding-top: 20px;
+}
+.list-images {
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 0px;
+  }
+  .scroll-section {
+    padding-bottom: 45px;
+  }
+  .bep-work-section {
+    padding-bottom: 0px;
+    padding-top: 30px;
+  }
+  .types-of-token-detail {
+    justify-content: center;
+  }
+  .erc-processing {
+    padding-bottom: 50px;
+  }
+  .our-process-erc .mb-3 {
+    margin-bottom: 0rem !important;
+  }
+  .app-dapps-common .my-5 {
+    margin-bottom: 0rem !important;
+  }
+  .app-dapps-common {
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+  .dap-experts {
+    padding-top: 0rem !important;
+    padding-bottom: 50px;
+  }
+  .business-stak-list-section {
+    padding-top: 0px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  .dap-expert-one {
+    margin-bottom: 2rem !important;
+  }
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 0px;
+    padding-top: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-right-section img {
+    padding-bottom: 20px;
+  }
+  .erc-processing {
+    padding-bottom: 35px;
+  }
+  .erc-processing {
+    padding-bottom: 35px;
+    padding-top: 35px;
+  }
+  .app-dapps-common {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .dap-experts {
+    padding-bottom: 40px;
+  }
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 0px;
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .banner-right-section img {
+    padding-bottom: 0px;
+  }
+  .erc-processing {
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .app-dapps-common {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+  .dap-experts {
+    padding-bottom: 20px;
+  }
+  .commontext_subhead {
+    padding-bottom: 5px;
+  }
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+}

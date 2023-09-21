@@ -1,0 +1,101 @@
+.why {
+  position: relative;
+  right: -10%;
+}
+.whys_section {
+  margin-bottom: 60px;
+}
+.light-background {
+  background: rgba(255, 255, 255, 0.06);
+  margin: 0px 50px 0px 50px;
+  position: relative;
+}
+.choosing-section {
+  padding: 70px 0px 70px 0px;
+  position: relative;
+}
+.whysection_text_wrap {
+  width: 100%;
+}
+.whys_section h4 {
+  font-size: 32px;
+  line-height: 0px;
+  font-weight: 600;
+  color: #4e1fa3;
+  margin: 0;
+  padding: 0 0 0 85px;
+}
+.virtual_process h4 {
+  font-size: 32px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #d9d9d9;
+  margin: 0;
+  padding: 0 0 10px;
+}
+.whys_section h3 {
+  font-size: 86px;
+  line-height: 68px;
+  font-weight: 600;
+  color: #d9d9d9;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 991px) {
+  .whysection_text_wrap {
+    width: 100%;
+  }
+  .why_right_side img {
+    width: 65%;
+    margin: auto;
+    padding-top: 30px;
+  }
+  .why_right_side {
+    text-align: center;
+  }
+  .whys_section {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .whys_section h4 {
+    font-size: 40px;
+    padding: 0px 0px 30px 0px;
+  }
+  .whys_section h3 {
+    font-size: 70px;
+  }
+  .virtual_process h4 {
+    font-size: 18px;
+  }
+  .virtual_process h2 {
+    display: none;
+  }
+  .choosing-section {
+    padding-top: unset;
+    padding-bottom: unset;
+  }
+}
+@media (max-width: 576px) {
+  .light-background {
+    margin: 0px 30px;
+  }
+  .whys_section h3 {
+    font-size: 45px;
+    line-height: 1.2;
+  }
+  .whys_section h4 {
+    font-size: 25px;
+    padding-left: unset;
+    padding-bottom: 15px;
+  }
+  .whys_section {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 425px) {
+  .light-background {
+    margin: 0px 15px;
+  }
+}

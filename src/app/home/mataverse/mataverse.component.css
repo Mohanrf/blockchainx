@@ -1,0 +1,128 @@
+/* Metaverse CSS */
+.meta-detail {
+  padding: 85px 0px 90px 0px;
+}
+.meta-detail > .violet-vector {
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+.meta-detail > .green-vector {
+  right: 0;
+  top: 10px;
+  z-index: -1;
+}
+.meta-game {
+  position: relative;
+}
+.meta-detail > .orange-vector {
+  bottom: 0;
+
+  left: 0;
+  z-index: -1;
+}
+.meta-heading {
+  background: linear-gradient(89.98deg, #f5d255 -3.37%, #36e7c4 99.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 46px;
+  line-height: 60px;
+}
+
+.meta-description {
+  padding-top: 80px;
+}
+
+/* .meta-section-detail {
+  padding-top: 80px;
+} */
+
+.meta-game img {
+  width: 75%;
+}
+
+.meta-picture-section {
+  padding-top: 45px;
+}
+
+.metaverse-heading-section-alt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.meta-image-list {
+  transition: ease-in-out 1s;
+}
+.meta-image-list:hover > .meta-hover {
+  display: block;
+}
+
+.meta-hover img {
+  width: 50%;
+}
+
+.meta-hover {
+  display: none;
+  transition: ease-in-out 1s;
+}
+@media (max-width: 1199px) {
+  .meta-heading {
+    font-size: 26px;
+    line-height: 25px;
+  }
+}
+@media (max-width: 991px) {
+  .meta-section-detail,
+  .meta-description {
+    padding-top: 25px;
+  }
+  .meta-detail {
+    padding: 0px 0px 75px 0px;
+}
+}
+
+@media (max-width: 767px) {
+  .meta-heading {
+    font-size: 22px;
+    line-height: 25px;
+  }
+  .order-1 {
+    order: 2 !important;
+    padding-top: unset;
+  }
+  .order-2 {
+    order: 1 !important;
+    padding-top: unset;
+  }
+  .meta-game img {
+    width: 50%;
+  }
+
+  .meta-description {
+    padding-top: unset;
+  }
+  .meta-detail {
+    padding: 65px 0px 65px 0px;
+  }
+}
+@media (max-width: 576px) {
+  .meta-heading {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .our-procee-main > .container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media (max-width: 425px) {
+  .meta-detail {
+    padding: 45px 0px 45px 0px;
+  }
+  .our-procee-main > .container {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}

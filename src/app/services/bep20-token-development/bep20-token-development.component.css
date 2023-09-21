@@ -1,0 +1,201 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+
+.caption p {
+  padding-right: 30px;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+
+.types-of-token-cols {
+  margin-bottom: 50px;
+}
+
+#erc-link {
+  margin-top: -50px;
+}
+
+.slider-list-section {
+  padding-left: 150px;
+}
+.item-header h2 {
+  font-family: "Michroma", sans-serif;
+  font-size: 120px;
+  line-height: 1.2;
+  -webkit-text-stroke: 2px #ffffff;
+  color: transparent;
+  background: -webkit-linear-gradient(
+    -86deg,
+    #f600 5%,
+    #ffffff00 53%,
+    #74b81e00 91%
+  );
+  -webkit-background-clip: text;
+  opacity: 0.04;
+  -webkit-background-clip: text;
+}
+.nft-development-slider {
+  padding-top: 45px;
+}
+.nft_devlopment_market > .common-sub-heading-alt {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 40px;
+  background: linear-gradient(89.98deg, #f5d255 -3.37%, #36e7c4 99.98%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+}
+
+i.bi.bi-check-circle-fill {
+  color: #f5d255;
+  margin-right: 5px;
+}
+
+.projects ul li {
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.06);
+  background-blend-mode: screen;
+  border-radius: 10px;
+  margin: 30px 15px;
+}
+
+@media (max-width: 1199px) {
+  .types-of-erc::before {
+    display: none;
+  }
+
+  .our-process-erc {
+    padding-top: 0px;
+  }
+  .nft-development-slider {
+    padding-top: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+
+  .about-content p {
+    text-align: center;
+  }
+  .why-nft-read-more {
+    padding-left: 0px;
+    text-align: left;
+  }
+
+  .main-sub-heading,
+  .common-sub-heading h4 {
+    text-align: center;
+  }
+  #erc-link {
+    margin-top: unset;
+  }
+  .common-sub-heading h4::before {
+    display: none;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+  .bep-work-section {
+    text-align: center;
+  }
+  .types-of-token-detail {
+    padding-bottom: 25px;
+  }
+  .erc-processing {
+    padding-bottom: 50px;
+  }
+  .nft-development-slider {
+    padding-bottom: 0px;
+  }
+  .casestudy_head {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .erc-about-content {
+    padding-top: unset;
+  }
+  .erc-about-picture img {
+    padding-bottom: 15px;
+  }
+  .erc-20-head,
+  .erc-20-head-alt {
+    font-size: 20px;
+  }
+  .erc-about-picture img {
+    width: 125px;
+    height: 125px;
+    object-fit: scale-down;
+  }
+  .erc-about-picture {
+    padding-bottom: 30px;
+  }
+
+  .types-of-token-cols {
+    margin-bottom: 50px;
+  }
+  .types-of-token-detail {
+    padding-top: 60px;
+  }
+  .choosing-section {
+    padding: 20px 0px 70px 0px;
+  }
+  .process-erc {
+    padding-top: 25px;
+  }
+  .process-image {
+    padding-top: 20px;
+  }
+  .item-header h2 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-sub-heading {
+    padding-left: unset;
+  }
+  .casestudy_head {
+    padding-bottom: 0px;
+  }
+  .process-image {
+    padding-bottom: unset;
+  }
+  .choosing-section {
+    padding: unset;
+  }
+  .nft_devlopment_market > .common-sub-heading-alt {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .erc-link {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .metaverse_heading {
+    padding-bottom: 0px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 0px;
+  }
+  .erc-processing {
+    padding-bottom: 30px;
+  }
+}

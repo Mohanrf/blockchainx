@@ -1,0 +1,174 @@
+.banners-section {
+  padding-bottom: 60px;
+}
+.banner_contentWrapper {
+  padding-top: 225px;
+}
+.banner-right-section img {
+  padding-top: 90px;
+}
+
+.cmt-5 {
+  margin-top: -75px;
+}
+.product-category-list {
+  padding-top: 50px;
+}
+
+.product-category-list .content-link {
+  padding-top: 40px;
+}
+.our-products > .green-vector {
+  bottom: 0px;
+  left: 0px;
+}
+.erc-about-picture {
+  padding-top: 30px;
+}
+.erc-about-content {
+  padding-top: 40px;
+}
+.video-section-top {
+  padding-top: 65px;
+}
+.erc-processing {
+  padding-top: 65px;
+}
+
+@media (max-width: 1199px) {
+  .banner-right-section img {
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+  .banner_contentWrapper {
+    padding: 180px 0px 50px 10px;
+  }
+  .banners-section {
+    padding-bottom: unset;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .metaverse_subheading h3 {
+    font-size: 25px;
+  }
+  .video-section-top {
+    padding-top: unset;
+  }
+  .video-left {
+    padding-left: 15px;
+  }
+  .cmt-5 {
+    margin-top: 40px;
+  }
+  .product-category-list {
+    gap: 30px;
+    padding-top: 30px;
+  }
+  .product-category-list .content-link {
+    padding-top: 15px;
+  }
+  .main-sub-heading {
+    text-align: center;
+  }
+  .common-sub-heading p {
+    text-align: center;
+  }
+  .erc-processing {
+    padding-bottom: 30px;
+    
+  }
+  .erc-about-picture {
+    padding-bottom: 0px;
+  }
+  .erc-about-conten {
+    padding-bottom: 0px;
+  }
+  .acc-sec-list {
+    padding-top: 0px;
+  }
+}
+@media (max-width: 767px) {
+  .banner_contentWrapper {
+    padding: 150px 0px 50px 10px;
+  }
+  .uni-clone img {
+    width: 50%;
+  }
+  .erc-about-content {
+    padding-top: 10px;
+  }
+  .process-erc {
+    padding-top: 20px;
+  }
+  .video-section-top {
+    padding-top: 50px;
+  }
+  .erc-processing {
+    padding-top: 40px;
+  }
+  .acc-sec-list {
+    padding-top: 20px;
+  }
+  .acc-sec-image {
+    width: 70%;
+  }
+  .bep-work-section img {
+    width: 50%;
+  }
+}
+@media (max-width: 576px) {
+  .metaverse_subheading h3 {
+    font-size: 20px;
+  }
+  .product-category-list {
+    padding-top: 20px;
+  }
+  .row {
+    padding-right: unset;
+    padding-left: unset;
+  }
+  .erc-processing {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .erc-about-picture-auto img {
+    width: auto;
+  }
+  .product-category-list {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .virtual_process h4 {
+    font-size: 18px;
+  }
+  .erc-link {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .erc-about-picture h4 {
+    font-size: 18px;
+  }
+  .erc-about-picture img {
+    width: 50%;
+  }
+  .virtual_process {
+    padding-bottom: 10px;
+  }
+  .process-head {
+    font-size: 18px;
+  }
+  .process-image {
+    padding: 10px 0px;
+  }
+  .acc-sec-list {
+    padding-top: 20px;
+  }
+}

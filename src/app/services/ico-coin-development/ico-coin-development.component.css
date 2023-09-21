@@ -1,0 +1,188 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+
+.caption p {
+  padding-right: 30px;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+.scroll-section a {
+  cursor: pointer;
+}
+.bep-work-section {
+  text-align: center;
+}
+.erc-processing {
+  padding-top: 65px;
+  justify-content: center;
+}
+.list-one img,
+.list-one-alt img {
+  padding-right: 0px;
+  padding-top: 40px;
+}
+.list-one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.business-stak-list-section {
+  padding-top: 65px;
+}
+
+/* ICO FOR FUNDRAISING */
+
+.erc-about-picture img {
+  padding-bottom: 30px;
+}
+.metaverse_heading h3 {
+  padding-bottom: 15px;
+}
+
+@media (max-width: 1199px) {
+  .erc-processing {
+    padding-top: 50px;
+  }
+  .erc-about-content {
+    padding-top: 50px;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .main-sub-heading,
+  .common-sub-heading h4 {
+    text-align: center;
+  }
+  .common-sub-heading h4::before {
+    display: none;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+
+  .about-content {
+    padding-top: 40px;
+  }
+  .types-of-token-detail {
+    padding-top: 50px;
+  }
+  .erc-processing {
+    padding-top: 30px;
+    padding-bottom: 40px;
+  }
+  .acc-sec-list {
+    padding-top: 30px;
+  }
+
+  /* ICO FOR FUNDRAISING */
+  .erc-about-content {
+    padding-top: 15px;
+  }
+  .erc-about-picture {
+    padding-top: 30px;
+  }
+  .erc-about-picture img {
+    padding-bottom: 15px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 25px;
+  }
+  .business-stak-list-section {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 767px) {
+  .types-of-token-detail {
+    padding-top: 30px;
+  }
+  .process-head {
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+  }
+  .erc-about-content {
+    padding-top: unset;
+  }
+
+  .erc-about-picture img {
+    padding-bottom: 15px;
+    width: 125px;
+    height: 125px;
+    object-fit: scale-down;
+  }
+  .erc-about-picture {
+    padding-top: 30px;
+  }
+  .erc-20-head,
+  .erc-20-head-alt {
+    font-size: 20px;
+  }
+  .business-stak-list-section {
+    padding-top: 45px;
+  }
+
+  .list-one img,
+  .list-one-alt img {
+    padding-right: 0px;
+    padding-top: 20px;
+  }
+  .metaverse_subheading h3 {
+    padding-bottom: 20px;
+  }
+  .business-stak-list-section {
+    padding-top: 25px;
+  }
+  .metaverse_subheading h3 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-sub-heading {
+    padding-left: unset;
+  }
+
+  .types-erc-detail {
+    text-align: center !important;
+  }
+  .about-content {
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+  .metaverse_subheading h3 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 425px) {
+  .list-one img {
+    padding-bottom: 0px;
+  }
+
+  .erc-about-picture {
+    padding-top: 25px;
+  }
+  .erc-about-picture img {
+    padding-bottom: 0px;
+  }
+  .business-stak-list-section {
+    padding-top: 25px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 0px;
+  }
+  .business-stak-list-section {
+    padding-top: 0px;
+  }
+  .metaverse_subheading h3 {
+    padding-top: 20px;
+    padding-bottom: 0px;
+  }
+}

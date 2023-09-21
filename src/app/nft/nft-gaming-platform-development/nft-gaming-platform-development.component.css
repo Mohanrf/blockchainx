@@ -1,0 +1,66 @@
+.dreamlist-top {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.scroll-section {
+  padding-bottom: 65px;
+}
+.metaverse_heading h3 {
+  text-align: center;
+}
+
+marquee img {
+  padding: 15px;
+}
+
+@media (max-width: 991px) {
+  .erc-processing {
+    padding-bottom: 50px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 25px;
+  }
+  .scroll-section {
+    padding-bottom: 45px;
+  }
+
+  .dreamlist-top {
+    padding-bottom: 0px;
+  }
+  marquee img {
+    width: 125px;
+    height: 125px;
+  }
+}
+@media (max-width: 767px) {
+  .erc-about-content {
+    padding-top: 0px;
+  }
+  .process-erc {
+    padding-top: 15px;
+  }
+  .process-image {
+    padding-top: 30px;
+  }
+}
+@media (max-width: 576px) {
+  .erc-processing {
+    padding-bottom: 25px;
+  }
+  .types-of-token-detail {
+    padding-bottom: 0px;
+  }
+  marquee img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 425px) {
+  .process-image {
+    padding-top: 10px;
+  }
+  .scroll-section {
+    padding-bottom: 35px;
+  }
+}

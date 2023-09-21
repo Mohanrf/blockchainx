@@ -1,0 +1,61 @@
+.caption p {
+  padding-right: 30px;
+}
+
+.contact-link {
+  padding-top: 30px;
+  display: flex;
+}
+
+.home-link,
+.home-link-alt {
+  font-family: "Syne", sans-serif;
+  border-radius: 8px;
+  padding: 12px 21px;
+  outline: 0;
+  box-shadow: unset;
+  margin-right: 20px;
+  transition: 0.3s all ease-in-out;
+}
+.home-link {
+  background: rgba(54, 231, 196, 0.1);
+  border: 1px solid #36e7c4;
+}
+.home-link:hover {
+  background: #f5d255;
+  border: 1px solid #f5d255;
+  transition: background 0.3s all ease-in-out;
+  color: #000000;
+}
+.home-link-alt {
+  background: rgba(245, 210, 85, 0.1);
+  border: 1px solid #f5d255;
+}
+
+.home-link-alt:hover {
+  background: #36e7c4;
+  border: 1px solid #36e7c4;
+  transition: background 0.3s all ease-in-out;
+  color: #fff;
+}
+.banner-right-section {
+  position: relative;
+}
+
+.scroll-section {
+  padding-bottom: 60px;
+}
+.scroll-section a {
+  cursor: pointer;
+}
+.our_process_wrap::before {
+  position: absolute;
+  transform: translate(-20%, 0%);
+  top: 0%;
+  left: 0%;
+  opacity: 0.9;
+  filter: blur(90px);
+  z-index: -1;
+}
+
+

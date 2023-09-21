@@ -1,0 +1,103 @@
+/* About css */
+.section-about {
+  padding: 115px 0px 90px 0px;
+  position: relative;
+}
+.section-about > .violet-vector {
+  right: 0px;
+  top: -20%;
+}
+.section-about > .orange-vector {
+  left: 10%;
+  bottom: 0%;
+  z-index: -1;
+}
+
+.about-inner-image {
+  background: #d9d9d9;
+  box-shadow: 15px 10px 46px rgba(0, 0, 0, 0.05);
+  border-radius: 16px;
+  padding: 12px 12px 24px 12px;
+  margin-bottom: 30px;
+  transform: rotate(-0.35deg);
+}
+/* .about-sub-heading {
+  color: #040914;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 33px;
+} */
+.about-picture-detail,
+.about-picture-detail-alt {
+  margin-right: 30px;
+}
+.about-picture-detail-alt {
+  padding-top: 75px;
+}
+.about-picture-detail {
+  display: flex;
+  flex-direction: column;
+}
+.about-picture {
+  position: relative;
+}
+.about-picture::before {
+  content: url("~src/assets-new/images/Home/about-eclipse-2.png");
+  position: absolute;
+  opacity: 0.75;
+  width: 100%;
+  transform: translate(-65%, -50%);
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+}
+.about-picture::after {
+  background-image: url("~src/assets-new/images/Home/about/orange-gradient.png");
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  opacity: 0.7;
+  filter: blur(50px);
+  z-index: 0;
+}
+.violet-vector {
+  right: -70px;
+  top: -20%;
+}
+.cmt-5 {
+  margin-top: 75px;
+}
+.demo-video-section .demo-video {
+  width: 100%;
+  height: 330px; 
+}
+@media (max-width: 991px) {
+  .section-about {
+    padding: 75px 0px 75px 0px;
+  }
+  .demo-video-section {
+    padding-bottom: 30px;
+  }
+  /* .about-sub-heading {
+    font-size: 20px;
+    line-height: 26px;
+  } */
+}
+@media (max-width: 576px) {
+  .section-about {
+    padding: 60px 0px 60px 0px;
+  }
+}
+@media (max-width: 425px) {
+  .section-about {
+    padding: 45px 0px 45px 0px;
+  }
+  .demo-video-section .demo-video {
+    width: 100%;
+    height: auto;
+  }
+}

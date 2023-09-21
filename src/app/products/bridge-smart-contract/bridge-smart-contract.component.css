@@ -1,0 +1,76 @@
+.banner_contentWrapper {
+  padding-top: 225px;
+}
+.banner-right-section img {
+  padding-top: 90px;
+}
+.video-section-top {
+  padding-top: 40px;
+}
+.cmt-5 {
+  margin-top: 75px;
+}
+.video-section-top {
+  padding-top: 55px;
+}
+
+.banners-section {
+  position: relative;
+  padding-bottom: 60px;
+}
+
+@media (max-width: 1199px) {
+  .banner-right-section img {
+    padding-top: 150px;
+  }
+  .banners-section {
+    padding-bottom: 50px;
+  }
+  .types-erc-comm {
+    margin-top: 0px;
+  }
+}
+@media (max-width: 991px) {
+  .banners-section {
+    padding-bottom: 30px;
+  }
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+  .banner_contentWrapper {
+    padding: 180px 0px 50px 10px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+
+  .metaverse_subheading h3 {
+    font-size: 25px;
+  }
+  .video-section-top {
+    padding-top: unset;
+  }
+  .video-left {
+    padding-left: 15px;
+  }
+  .cmt-5 {
+    margin-top: 40px;
+  }
+  .uni-clone img {
+    padding-bottom: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .banner_contentWrapper {
+    padding: 150px 0px 50px 10px;
+  }
+
+  .banners-section {
+    padding-bottom: 0px;
+  }
+}
+@media (max-width: 576px) {
+  .metaverse_subheading h3 {
+    font-size: 20px;
+  }
+}

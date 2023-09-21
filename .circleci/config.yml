@@ -1,0 +1,69 @@
+version: 2.1
+jobs:
+  build:
+    machine:
+      image: ubuntu-2004:202111-01
+    steps:
+      - checkout
+      - run:
+          name: Install Node.js
+          command: |
+            curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
+            sudo apt-get install -y nodejs
+      - restore_cache:
+          keys:
+            - npm-cache-{{ checksum "package-lock.json" }}
+            - npm-cache-
+      - run:
+          name: Install dependencies
+          command: npm ci
+      
+      - run:
+          name: Build Angular app
+          command: npm run build
+      - run:
+          name: Build Scully app
+          command: npm run scully
+
+      - persist_to_workspace:
+          root: .
+          paths:
+            - dist
+
+  deploy:
+    machine:
+      enabled: true
+    steps:
+      - attach_workspace:
+          at: .
+
+      - add_ssh_keys:
+          fingerprints:
+            - "$PROD_SSH_KEY"
+
+      - run:
+          name: Deploy to EC2
+          command: |
+            scp -r -o StrictHostKeyChecking=no ./dist/static/* ${PROD_USERNAME}@${PROD_HOST}:${PROD_TARGET}
+            ssh $PROD_USERNAME@$PROD_HOST 'sudo service apache2 restart'
+            ssh $PROD_USERNAME@$PROD_HOST 'cd /var/www/html/amp-web-stories && sudo git pull origin live'
+            ssh $PROD_USERNAME@$PROD_HOST 'cp -r /var/www/html/amp-web-stories/* /var/www/html/bx-landing'
+            ssh $PROD_USERNAME@$PROD_HOST 'cp -r /var/www/html/bx-landing-git/* /var/www/html/bx-landing'
+
+
+workflows:
+  version: 2
+  build-deploy:
+    jobs:
+      - build:
+          filters:
+            branches:
+              only:
+                - live      
+      - deploy:
+          requires:
+            - build
+          filters:
+            branches:
+              only:
+                - live

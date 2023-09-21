@@ -1,0 +1,63 @@
+.comment-box-section {
+  padding: 50px 0px 50px 0px;
+}
+.form-control {
+  background-color: transparent;
+  border: 1px solid #d9d9d9;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: unset;
+  box-shadow: unset;
+  outline: 0;
+  padding: 10px 0px 10px 0px;
+  margin: 20px auto;
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 34px;
+  color: #d9d9d9;
+}
+
+::placeholder {
+  color: #212529;
+}
+
+::-webkit-input-placeholder {
+  color: #212529;
+}
+
+::-moz-placeholder {
+  color: #212529;
+}
+
+:-ms-input-placeholder {
+  color: #212529;
+}
+
+::-ms-input-placeholder {
+  color: #212529;
+}
+
+.btn-submit {
+  background: rgba(245, 210, 85, 0.1);
+  border: 1px solid #f5d255;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Syne", sans-serif;
+  margin-top: 50px;
+}
+
+@media (max-width: 576px) {
+  .form-control {
+    font-size: 20px;
+  }
+
+  .btn-submit {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 25px;
+    margin-top: 15px;
+  }
+}

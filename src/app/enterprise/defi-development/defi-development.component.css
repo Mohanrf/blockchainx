@@ -1,0 +1,108 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+.scroll-section {
+  padding-bottom: 60px;
+}
+.our-solid-common {
+  padding-bottom: 20px;
+}
+
+/* business-tech-stack */
+.techstack_img img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+
+  margin-bottom: 40px;
+}
+.techstack_img > img:hover {
+  opacity: 1;
+}
+.app-dapps-common {
+  padding-top: 65px;
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 0px;
+  }
+  .metaverse_heading h3 {
+    text-align: center;
+  }
+  .erc-processing {
+    padding-bottom: 50px;
+  }
+  .bep-work-section {
+    padding-top: 30px;
+    padding-bottom: 0px;
+  }
+  .app-dapps-common .my-5 {
+    margin-bottom: 0rem !important;
+  }
+  .app-dapps-common {
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .banner-right-section img {
+    padding-bottom: 25px;
+  }
+  .process-head {
+    padding-top: 0.5rem !important;
+  }
+  .scroll-section {
+    padding-bottom: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .banner-right-section img {
+    padding-bottom: 15px;
+  }
+  .erc-processing {
+    padding-top: 35px;
+    padding-bottom: 35px;
+  }
+  .erc-about-picture {
+    padding-top: 25px;
+  }
+  .process-head {
+    padding-top: 0rem !important;
+  }
+  .our-solid-common {
+    padding-bottom: 10px;
+  }
+  .acc-sec-list {
+    padding-top: 35px;
+  }
+  .app-dapps-common {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .scroll-section {
+    padding-bottom: 30px;
+  }
+  .banner-right-section img {
+    padding-bottom: 0px;
+  }
+  .erc-processing {
+    padding-top: 30px;
+    padding-bottom: 20px;
+  }
+  .process-erc {
+    padding-top: 25px;
+  }
+  .app-dapps-common {
+    padding-top: 30px;
+    padding-bottom: 10px;
+  }
+}

@@ -1,0 +1,147 @@
+<section class="banners-section">
+  <!-- <div class="banner-eclipse">
+    <img
+      src="assets-new/images/Home/Eclipse-circle-2.png"
+      width="100%"
+      height="100%"
+      alt="BlockchainX-Eclipse-Vector"
+      loading="eager"
+    />
+  </div>
+  <div class="banner-eclipse-alt">
+    <img
+      src="assets-new/images/Home/Ellipse-circle-1.png"
+      width="100%"
+      height="100%"
+      alt="BlockchainX-Eclipse-Vector"
+      loading="eager"
+    />
+  </div> -->
+  <div class="banner-eclipse">
+    <picture>
+      <source
+        type="image/webp"
+        srcset="assets-new/images/Home/Eclipse-circle-2.webp"
+      />
+
+      <source
+        type="image/png"
+        srcset="assets-new/images/Home/Eclipse-circle-2.png"
+      />
+
+      <img
+        src="assets-new/images/Home/Eclipse-circle-2.png"
+        width="100%"
+        height="100%"
+        alt="Blockchainx-Eclipse-Vector"
+        loading="eager"
+      />
+    </picture>
+  </div>
+  <div class="banner-eclipse-alt">
+    <picture>
+      <source
+        type="image/webp"
+        srcset="assets-new/images/Home/Eclipse-circle-1.webp"
+      />
+
+      <source
+        type="image/png"
+        srcset="assets-new/images/Home/Eclipse-circle-1.png"
+      />
+
+      <img
+        src="assets-new/images/Home/Eclipse-circle-1.png"
+        width="100%"
+        height="100%"
+        alt="Blockchainx-Eclipse-Vector"
+        loading="eager"
+      />
+    </picture>
+  </div>
+
+  <div class="banner_wrapper">
+    <div class="container" id="common-relative">
+      <div class="green-vector"></div>
+      <div class="row align-items-center">
+        <div class="col-lg-8 col-md-12 col-sm-12 col-12">
+          <div class="banner_contentWrapper">
+            <div class="caption">
+              <h1>
+                Unleash Web3<small>.</small>
+                <span> Arena Of <strong> Possibilities. </strong></span>
+                <span>Collaborative Ecosystem.</span>
+              </h1>
+              <p>
+                Our creative blockchain expertise equips businesses in the most
+                reliable manner. It’s secured, alongside withholds supremacy
+                among other contenders.
+              </p>
+
+              <div class="contact-link">
+                <a [routerLink]="['/contact']" class="home-link"
+                  >Talk To Our Experts</a
+                >
+                <a [routerLink]="['/case-studies']" class="home-link-alt"
+                  >View Case Study</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-12 col-sm-12 text-center">
+          <div class="banner-right-section">
+            <img
+              src="assets-new/images/Home-banner-left.png"
+              width="350"
+              height="220"
+              class="img-fluid"
+              alt="Blockchainx"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="scroll-section text-center">
+          <a
+            (click)="
+              about.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            "
+          >
+            <img
+              src="assets-new/images/Home/scroll.png"
+              class="img-fluid"
+              width="25"
+              height="50"
+              alt="scroll-icon"
+              loading="lazy"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="about-main" #about>
+  <app-about></app-about>
+</section>
+<section class="services-main">
+  <app-services></app-services>
+</section>
+<section class="meta-main">
+  <app-mataverse></app-mataverse>
+</section>
+
+<!--our process start-->
+<div class="our_process_wrap">
+  <app-ourprocess></app-ourprocess>
+</div>
+<!--our process end-->
+<!--web3 expert-->
+<app-expert></app-expert>
+<!--end-->
+<app-blog></app-blog>
+<app-contactform></app-contactform>
+
+<!--end-->

@@ -1,0 +1,608 @@
+<header>
+  <nav class="navbar navbar-expand-lg" id="navbar_top">
+    <div class="container-fluid" id="header-full-width">
+      <a class="navbar-brand" [routerLink]="['/']">
+        <img
+          src="assets-new/images/logo-white.png"
+          width="160"
+          height="50"
+          alt="BlockchainX"
+          class="img-responsive"
+        />
+      </a>
+
+      <button
+        class="btn btn-primary navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasRight"
+        aria-controls="offcanvasRight"
+      >
+        <span class=""><i class="bi bi-list"></i></span>
+      </button>
+      <div
+        class="offcanvas"
+        tabindex="-1"
+        id="offcanvasRight"
+        aria-labelledby="offcanvasRightLabel"
+      >
+        <div class="offcanvas-header">
+          <div id="offcanvasRightLabel">
+            <a
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasRight"
+              aria-controls="offcanvasRight"
+              class="navbar-brand"
+              [routerLink]="['/']"
+            >
+              <img
+                src="assets-new/images/logo-white.png"
+                width="160"
+                height="50"
+                alt="BlockchainX"
+                class="img-responsive"
+              />
+            </a>
+          </div>
+          <button
+            type="button"
+            class="btn-close text-reset"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div class="offcanvas-body">
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li
+                class="nav-item dropdown"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Products</a
+                >
+                <ul class="dropdown-menu dw-menu2">
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/ready-made-ico-software']"
+                      >ICO/STO Dashboard Script</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-lending-software-using-defi']"
+                      >DeFi Lending Software</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/cryptocurrency-wallet-development']"
+                      >DeFi Crypto Wallet Software</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/crowdfunding-script']"
+                      >Crowdfunding Software</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/cold-wallet-integration']"
+                      >Cold Wallet Integration</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/uniswap-clone-script']"
+                      >Uniswap Clone</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/token-migration']"
+                      >Token Migration</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/bridge-smart-contract-development']"
+                    >
+                      Bridge Smart Contract</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/white-label-launchpad-development']"
+                      >Cryptocurrency Launchpad</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/defi-staking-platform']"
+                      >DeFi Staking Platform
+                    </a>
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/defi-yield-farming-development']"
+                      >DeFi Yield Farming
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="nav-item dropdown"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  NFT</a
+                >
+                <ul class="dropdown-menu">
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/nft-marketplace-development']"
+                      >NFT Marketplace Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/non-fungible-token-development']"
+                      >NFT Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/nft-gaming-platform-development']"
+                      >NFT Gaming Platform Development</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="nav-item dropdown"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Services</a
+                >
+                <ul class="dropdown-menu dw-menu2">
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/crypto-currency-development']"
+                      >Cryptocurrency Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/ico-development']"
+                      >ICO Coin Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/security-token-offering-services']"
+                      >STO Coin Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/ico-marketing-agency']"
+                      >ICO/STO Marketing
+                    </a>
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/erc20-token-development']"
+                      >ERC20 Token Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="[
+                        '/cryptocurrency-exchange-software-development'
+                      ]"
+                      >Crypto Exchange Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/bep20-token-development']"
+                      >BEP20 Token Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-consulting-services']"
+                      >Blockchain Consulting</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/tron-token-development']"
+                      >TRC20 Token Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/corda-blockchain-development-services']"
+                      >Corda Blockchain Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/cardano-ada-blockchain-development']"
+                      >Cardano Blockchain Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/dao-development-company']"
+                      >DAO Development</a
+                    >
+                  </li>
+                  <!-- <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/defi-staking-platform']"
+                      >DeFi Staking Platform
+                    </a>
+                  </li> -->
+                  <!-- <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/defi-yield-farming-development']"
+                      >DeFi Yield Farming
+                    </a>
+                  </li> -->
+                </ul>
+              </li>
+              <li
+                class="nav-item dropdown"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Enterprise</a
+                >
+                <ul class="dropdown-menu dw-menu2">
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="[
+                        '/hyperledger-blockchain-development-services'
+                      ]"
+                      >Hyperledger Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/smart-contract-development']"
+                      >Smart Contract Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/dapps-development']"
+                      >DAPPS development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/hire-solidity-developers']"
+                      >Solidity development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/ipfs-blockchain']"
+                      >IPFS Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/hashgraph-development-services']"
+                      >Hashgraph Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/decentralized-finance-defi-development']"
+                      >DeFi Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/hire-solana-developers']"
+                      >Solana Development</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="nav-item dropdown"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Industries</a
+                >
+                <ul class="dropdown-menu dw-menu2">
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-in-healthcare']"
+                      >Health Care</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="[
+                        '/blockchain-technology-in-banking-and-finance'
+                      ]"
+                      >Finance/Investment</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-in-insurance']"
+                      >Insurance</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-in-rental']"
+                      >Rental</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/supply-chain-management-blockchain']"
+                      >Supply Chain</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-game-development']"
+                      >Games Development</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-applications-agriculture']"
+                      >Agriculture</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blockchain-in-retail']"
+                      >Retail</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li
+                class="nav-item"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link"
+                  data-bs-dismiss="offcanvas"
+                  [routerLink]="['/metaverse-development-company']"
+                  >Metaverse</a
+                >
+              </li>
+              <li
+                class="nav-item dropdown"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  About</a
+                >
+                <ul class="dropdown-menu">
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/about-us']"
+                      >About Us</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/blog']"
+                      >Blog</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/contact']"
+                      >Contact us</a
+                    >
+                  </li>
+
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/case-studies']"
+                      >Case Study</a
+                    >
+                  </li>
+                  <!-- <li routerLinkActive="active">
+                    <a class="dropdown-item" [routerLink]="['/testimonial']"
+                      >Testimonials</a
+                    >
+                  </li> -->
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/terms-and-conditions']"
+                      >Terms and conditions</a
+                    >
+                  </li>
+                  <li routerLinkActive="active">
+                    <a
+                      class="dropdown-item"
+                      data-bs-dismiss="offcanvas"
+                      [routerLink]="['/privacy-policy']"
+                      >Privacy policy</a
+                    >
+                  </li>
+                </ul>
+              </li>
+
+              <li
+                class="nav-item"
+                id="menu-contact"
+                routerLinkActive="active"
+                [routerLinkActiveOptions]="{ exact: true }"
+              >
+                <a
+                  class="nav-link"
+                  data-bs-dismiss="offcanvas"
+                  [routerLink]="['/contact']"
+                >
+                  Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

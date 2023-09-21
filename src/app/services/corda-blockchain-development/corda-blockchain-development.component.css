@@ -1,0 +1,122 @@
+.banner-right-section img {
+  padding-top: 180px;
+}
+.scroll-section {
+  padding-bottom: 60px;
+}
+.bep-work-section {
+  text-align: center;
+}
+.erc-about-picture {
+  padding-right: 30px;
+  padding-left: 30px;
+}
+.erc-about-content {
+  padding-top: 20px;
+}
+.why-nft-read-more {
+  text-align: right;
+}
+.about-content .metaverse_heading h3 {
+  text-align: left;
+  padding-bottom: 20px;
+}
+.casestudy_head h3 {
+  padding-bottom: 20px;
+}
+.case_studies_hr {
+  width: 100% !important;
+  opacity: 0.5;
+  border: 0.75px solid #d9d9d9 !important;
+  margin: 45px 0px 45px 0px !important;
+}
+
+/* media-screen */
+@media (max-width: 1199px) {
+  .erc-about-picture {
+    padding: 20px 0px 0px 0px;
+}
+
+}
+
+@media (max-width: 991px) {
+  .banner-right-section img {
+    padding-top: 30px;
+  }
+  .main-sub-heading,
+  .common-sub-heading h4 {
+    text-align: center;
+  }
+  .common-sub-heading h4::before {
+    display: none;
+  }
+  .caption p {
+    padding-right: unset;
+  }
+  .bep-work-section img {
+    width: 65%;
+    margin: auto;
+  }
+  .why-nft-read-more {
+    text-align: left !important;
+  }
+  .nft-service-list .main-sub-heading {
+    text-align: left;
+  }
+  .why-nft-read-more {
+    padding-left: 15px;
+  }
+  .commontext_wrap h2, .main-sub-heading, .metaverse_heading h3, .contact_head h3 {
+    text-align: center;
+  }
+  .process-image{
+    padding-bottom: 10px;
+  }
+  .casestudy_head h3 {
+    padding-bottom: 0px;
+  }
+  .erc-about-content {
+    padding-top: 0px;
+  }
+  .erc-processing  {
+    padding-bottom: 40px;
+  }
+
+
+
+
+
+}
+@media (max-width: 767px) {
+  .erc-about-content {
+    padding-top: unset;
+  }
+
+  .erc-about-picture {
+    padding-bottom: 10px;
+  }
+
+  .about-content .metaverse_heading h3 {
+    text-align: center !important;
+  }
+  .acc-sec img {
+    width: 65%;
+    padding-bottom: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .main-sub-heading {
+    padding-left: unset;
+  }
+  .scroll-section {
+    padding-bottom: 45px;
+  }
+  .acc-sec-list {
+    padding-top: 40px;
+  }
+  .erc-about-picture img {
+    width: 150px;
+    height: auto;
+  }
+}

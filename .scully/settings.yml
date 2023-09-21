@@ -1,0 +1,11 @@
+identifier: lfg26dd19ecexebe
+appPort: 1864
+staticPort: 1668
+reloadPort: 2667
+hostName: localhost
+projectName: blockchainx
+homeFolder: C:\Users\Hxtreme\bx-landing
+distFolder: dist/blockchainx
+outDir: C:\Users\Hxtreme\bx-landing\dist\static\
+handle404: ''
+allowErrorCollect: true
